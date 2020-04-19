@@ -2,10 +2,10 @@
 
  #### PARTIES ####
 
- ESB_coup_moderates:0 "Military Junta (M)"
- ESB_coup_moderates_long:0 "Military Junta (Moderates)"
- ESB_coup_hardliners:0 "Military Junta (H)"
- ESB_coup_hardliners_long:0 "Military Junta (Hardliners)"
+ ESB_coup_moderates:0 "Military Junta - M"
+ ESB_coup_moderates_long:0 "Military Junta - Moderates"
+ ESB_coup_hardliners:0 "Military Junta - H"
+ ESB_coup_hardliners_long:0 "Military Junta - Hardliners"
  
 
  #### LEADERS ####
