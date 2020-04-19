@@ -1,0 +1,93 @@
+﻿l_english:
+
+ #### PARTIES ####
+
+ ESB_coup_moderates:0 "Military Junta (M)"
+ ESB_coup_moderates_long:0 "Military Junta (Moderates)"
+ ESB_coup_hardliners:0 "Military Junta (H)"
+ ESB_coup_hardliners_long:0 "Military Junta (Hardliners)"
+ 
+
+ #### LEADERS ####
+ 
+ ESB_military_junta_desc:0 ""
+ 
+ #### FOCUSES ####
+
+ 
+ #### EVENTS ####
+ 
+ stableside.1.t:0 "The Officer's Coup"
+ stableside.1.d:0 "Today, in the early morning hours, as the Princess' sun began to rise from the hills of the South-East, the citizens of Stableside were suddenly woken up by the sounds of rumbling vehicles. When the ponies timidly stepped out of their homes to see what was going on, they were met with a shocking sight: dozens of military trucks and armoured personnel carriers, all bearing the insignia of the Stableside Garrison, were located all along the major landmarks and transportation points of the city. \n\n When some ponies thought that Stableside had been invaded by a foreign power, the truth revealed itself to be much more internal. Soon afterwards, a official communiqué was issued by a group of military officers calling itself the 'Junta of Equestrian Salvation'; arguing that due to Equestria's deteriorating situation, power was to be temporarily seized by the 'Equestrian' military, and demanded the mayor of Stableside to step down.\n\n The mayor refused, and a short but intense firefight broke out between the military forces and Stableside's police force loyal to the mayor. However, after the city's harbour was blocked by a group of 'Royal Navy' patrol boats and destroyers commanded by Brisk Gust, threatening to shell the port of Stableside; the mayor surrendered and resigned from power. \n\n While Equestria's rapidly worsening political situation had been a worry to the ponies of Stableside, most still remained loyal to the Princesses, as they always were. With the news of the coup, the future of the now de-facto independent country is uncertain. The military junta now in power only controls Stableside and its sorrounding areas, with the rest of the nation either without any central rule or worse; actively defying the new government. What will be the future of Stableside without the Princesses?"
+ stableside.1.a:0 "We have to restore order."
+ stableside.2.t:0 "Coup In Stableside!"
+ stableside.2.d:0 "More horrible news for our government have come out of the South-East today. The administration of Stableside, which has so far remained loyal to Equestria despite the ongoing secession of many of our federal subjects, has been take over by a clique of military officers. \n\n Arguing that Equestria as it exists right now was a 'lost cause', soldiers loyal to the commander of Equestria's army in Stableside, Major General Iron Victory, have marched in the city to seize power. This was followed by naval forces loyal to Brisk Gust, Commander of the Portland Royal Navy Base, who blocked the city's harbour. \n\n The junta of Victory; Gust; and other military officers is now tentatively in control of Stableside, though there are reports of resistance within the province against the new regime. Either way, the loss of one of our most loyal federal subjects will hurt us tremendously."
+ stableside.2.a:0 "Terrible."
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

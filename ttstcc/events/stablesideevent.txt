@@ -1,0 +1,91 @@
+country_event = {
+	id = stableside.1 #FOR ESB
+	immediate = {log = "[GetDateText]: [Root.GetName]: event stableside.1"}
+	title = stableside.1.t
+	desc = stableside.1.d
+	#picture = 
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = stableside.1.a
+		set_party_name = {
+			ideology = neutrality
+			long_name = ESB_coup_moderates_long
+			name = ESB_coup_moderates
+		}
+		set_politics = {
+			ruling_party = neutrality
+			elections_allowed = no
+		}
+		hidden_effect = { kill_country_leader = yes }
+		create_country_leader = {
+			name = "Military Junta"
+			picture = "Boule.tga" #previsional
+			expire = "1965.1.1"
+			ideology = centrism
+			traits = { provisional }
+		}
+		hidden_effect = {
+		create_country_leader = {
+			name = "Military Junta"
+			picture = "Boule.tga" #previsional
+			expire = "1965.1.1"
+			ideology = nazism
+			traits = { provisional }
+		}
+		set_party_name = {
+			ideology = fascism
+			long_name = ESB_coup_hardliners_long
+			name = ESB_coup_hardliners
+		}
+		}
+		hidden_effect = {
+			drop_cosmetic_tag = yes
+			end_puppet = ESB
+		if = {
+			limit = {
+				ESB = {
+					is_in_faction_with = EQS
+				}
+			}
+			ESB = {
+				leave_faction = yes
+			}
+		}
+		}
+		#hidden_effect = {
+		#	add_ideas = { 
+		# ###fill out later
+		#
+		#	}
+		#}
+		#set_country_flag = ESB_coup
+		#hidden_effect = {
+		#	load_focus_tree = {
+		#		tree = stableside_coup
+		#		keep_completed = yes
+		#	}
+		#}
+		#complete_national_focus = ESB_the_coup
+	}
+}
+
+country_event = {
+	id = stableside.2 #FOR EQS (SECESSION)
+	immediate = {log = "[GetDateText]: [Root.GetName]: event stableside.2"}
+	title = stableside.2.t
+	desc = stableside.2.d
+	#picture =
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = stableside.2.a
+		add_political_power = -50
+		add_stability = -0.05
+		ESB = { country_event = { id = stableside.1 hours = 23 } }
+	}
+}
