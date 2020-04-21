@@ -39,6 +39,11 @@ country_event = {
 			long_name = ESB_coup_hardliners_long
 			name = ESB_coup_hardliners
 		}
+		set_party_name = {
+			ideology = reformism
+			long_name = ESB_coup_progressives_long
+			name = ESB_coup_progressives
+		}
 		}
 		hidden_effect = {
 			drop_cosmetic_tag = yes
