@@ -9,6 +9,8 @@
  ESB_reformism_party_long:0 "Equestrian Loyalists"
  ESB_communism_party:0 "CPE - Stableside Branch"
  ESB_communism_party_long:0 "Communist Party of Equestria - Stableside Branch"
+ ESB_fascism_party:0 "RNEF"
+ ESB_fascism_party_long:0 "Rally for a New Equestrian Future"
  ESB_alt_left_party:0 "Alt-Left"
  ESB_alt_left_party_long:0 "Alt-Left"
  ESB_coup_moderates:0 "Military Junta - M"
@@ -16,7 +18,7 @@
  ESB_coup_hardliners:0 "Military Junta - H"
  ESB_coup_hardliners_long:0 "Military Junta - Hardliners"
  ESB_coup_progressives:0 "SHUS"
- ESB_coup_progressives_long:0 "Sozial-Harmonic Union of Stableside"
+ ESB_coup_progressives_long:0 "Social-Harmonic Union of Stableside"
  
 
  #### LEADERS ####
