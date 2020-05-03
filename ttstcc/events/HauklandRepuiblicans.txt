@@ -1,0 +1,11 @@
+﻿add_namespace = HAUREP
+#
+country_event = {
+	id = HAUREP.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.1"}
+	is_triggered_only = yes
+	option = {
+		
+	}
+}
+

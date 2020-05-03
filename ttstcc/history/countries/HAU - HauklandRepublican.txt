@@ -53,14 +53,16 @@ generic_CA_template = yes
 
 set_convoys = 70
 set_popularities = {
-	democratic = 1
-	fascism = 30
-	communism = 9
-	neutrality = 60
+	democratic = 21
+	fascism = 16
+	communism = 28
+	neutrality = 12
+	reformism = 22
+	alt_left = 1
 }
 set_politics = {
 
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1000.10.10"
 	election_frequency = 36
 	elections_allowed = no
@@ -71,21 +73,10 @@ add_ideas = {
 }
 
 set_stability = 0.50
-
 create_country_leader = {
-	name = "Graf Herman Mayer"
-	desc = ""
-	picture = "Horing.tga"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-	}
-}
+	name = "Senators of NJPP"
 
-create_country_leader = {
-	name = "Fuhrer Herman Mayer"
-
-	picture = "Horing.tga"
+	picture = "Military_Council.tga"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -94,9 +85,20 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "President Herman Mayer"
+	name = "Alexander Kemerskai Jr."
 	desc = ""
-	picture = "Horing.tga"
+	picture = "FAT_Kemerskai.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Senators of NJPP"
+	desc = ""
+	picture = "Military_Council.tga"
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
@@ -105,11 +107,33 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Comrade Herman Mayer"
+	name = "Schnabel Sunglider"
 	desc = ""
-	picture = "Horing.tga"
+	picture = "dem.tga"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = progressivist
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Rikard Astler"
+	desc = ""
+	picture = "Rikard_Astler.tga"
+	expire = "1965.1.1"
+	ideology = democratic_socialism
+	traits = {
+
+	}
+}
+
+create_country_leader = {
+	name = "Members of Republican Bureau of Investigation and Statistics"
+	desc = ""
+	picture = "Military_Council.tga"
+	expire = "1965.1.1"
+	ideology = national_stallionism
 	traits = {
 
 	}
