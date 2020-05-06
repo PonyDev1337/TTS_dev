@@ -16,6 +16,11 @@ focus_tree = {
 		cost = 3
 		x = 7
 		y = 0
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus HAU_Heart_of_the_Dream"
 			
@@ -29,6 +34,11 @@ focus_tree = {
 		cost = 3
 		x = 5
 		y = 1
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Heart_of_the_Dream
 		}
@@ -45,6 +55,11 @@ focus_tree = {
 		cost = 3
 		x = 7
 		y = 1
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Heart_of_the_Dream
 		}
@@ -61,6 +76,11 @@ focus_tree = {
 		cost = 3
 		x = 9
 		y = 1
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Heart_of_the_Dream
 		}
@@ -77,6 +97,11 @@ focus_tree = {
 		cost = 3
 		x = 7
 		y = 2
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Military_rule_hasgone
 		}
@@ -99,6 +124,11 @@ focus_tree = {
 		cost = 3
 		x = 0
 		y = 3
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Stay_Principles_forever
 		}
@@ -115,6 +145,11 @@ focus_tree = {
 		cost = 3
 		x = -2
 		y = 4
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_What_Fighting_For
 		}
@@ -131,6 +166,11 @@ focus_tree = {
 		cost = 3
 		x = -2
 		y = 5
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Prosperity_AKJ
 		}
@@ -147,6 +187,11 @@ focus_tree = {
 		cost = 3
 		x = 0
 		y = 4
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_What_Fighting_For
 		}
@@ -163,6 +208,11 @@ focus_tree = {
 		cost = 3
 		x = 0
 		y = 5
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Liberty_AKJ
 		}
@@ -179,6 +229,11 @@ focus_tree = {
 		cost = 3
 		x = 2
 		y = 4
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_What_Fighting_For
 		}
@@ -195,6 +250,11 @@ focus_tree = {
 		cost = 3
 		x = 2
 		y = 5
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Democracy_AKJ
 		}
@@ -211,6 +271,11 @@ focus_tree = {
 		cost = 3
 		x = 0
 		y = 6
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_NRPL_New_Reform_plan
 		}
@@ -233,6 +298,11 @@ focus_tree = {
 		cost = 3
 		x = 7
 		y = 3
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Stay_Principles_forever
 		}
@@ -249,6 +319,11 @@ focus_tree = {
 		cost = 3
 		x = 4
 		y = 4
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Focus_ON_Economy
 		}
@@ -265,6 +340,11 @@ focus_tree = {
 		cost = 3
 		x = 4
 		y = 5
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Public_Infrastructure_Construction
 		}
@@ -281,6 +361,11 @@ focus_tree = {
 		cost = 3
 		x = 7
 		y = 4
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Focus_ON_Economy
 		}
@@ -297,6 +382,11 @@ focus_tree = {
 		cost = 3
 		x = 6
 		y = 5
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Currency_Reform
 		}
@@ -316,6 +406,11 @@ focus_tree = {
 		cost = 3
 		x = 8
 		y = 5
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Currency_Reform
 		}
@@ -335,6 +430,11 @@ focus_tree = {
 		cost = 3
 		x = 10
 		y = 4
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Focus_ON_Economy
 		}
@@ -351,6 +451,11 @@ focus_tree = {
 		cost = 3
 		x = 10
 		y = 5
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Petroleum_Technology_Update
 		}
@@ -367,6 +472,11 @@ focus_tree = {
 		cost = 3
 		x = 7
 		y = 6
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Project_1032
 		}
@@ -390,6 +500,11 @@ focus_tree = {
 		cost = 3
 		x = 14
 		y = 3
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Stay_Principles_forever
 		}
@@ -406,6 +521,11 @@ focus_tree = {
 		cost = 3
 		x = 12
 		y = 4
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Its_Long_Way_to_Home
 		}
@@ -422,6 +542,11 @@ focus_tree = {
 		cost = 3
 		x = 12
 		y = 5
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Secret_Aggregation
 		}
@@ -438,6 +563,11 @@ focus_tree = {
 		cost = 3
 		x = 14
 		y = 4
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Its_Long_Way_to_Home
 		}
@@ -454,6 +584,11 @@ focus_tree = {
 		cost = 3
 		x = 14
 		y = 5
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Memories_of_Student_Movement
 		}
@@ -470,6 +605,11 @@ focus_tree = {
 		cost = 3
 		x = 16
 		y = 4
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Its_Long_Way_to_Home
 		}
@@ -486,6 +626,11 @@ focus_tree = {
 		cost = 3
 		x = 16
 		y = 5
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Strategizing
 		}
@@ -502,6 +647,11 @@ focus_tree = {
 		cost = 3
 		x = 14
 		y = 6
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Awake_Comrades
 		}
@@ -524,6 +674,11 @@ focus_tree = {
 		cost = 3
 		x = 7
 		y = 7
+		avaliable = {
+			NOT = {
+				has_country_flag = AKJ_got_problem
+			}
+		}
 		prerequisite = {
 			focus = HAU_Republicans_Never_Fear
 		}
