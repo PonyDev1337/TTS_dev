@@ -155,6 +155,7 @@ buildings = {
 		#max_level = 0 # max: 5
 		max_level = 6 # This is the max unlock level
 		damage_factor = 0.5
+		decrease_population_on_nuke = yes
 		value = 4
 	}
 

@@ -1,0 +1,28 @@
+add_namespace = electricity_count
+
+country_event = {
+	id = electricity_count.1
+	title = electricity_count.1.t
+	hidden = yes
+	mean_time_to_happen = {
+			days = 7
+	}
+	option = {
+		set_temp_variable = { tempw = 0 }
+		every_owned_state ={
+			set_temp_variable = { temp1 = THIS.building_level@industrial_complex }
+			multiply_temp_variable = {
+				var = temp1
+    			value = 3
+			}
+			add_to_temp_variable = {
+    			var = PREV.tempw
+    			value = temp1
+			}
+		}
+		set_variable = { THIS.electricity_consume = tempw }
+	}
+}
+
+
+
