@@ -26,10 +26,32 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Henry Niks"
+	expire = "1965.1.1"
+	picture = "Portrait_Thestralia_Henry_Niks.dds"
+	desc = "POLITICS_Henry_Niks_DESC"
+	ideology = market_liberalism
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Stefan Gunther"
+	expire = "1965.1.1"
+	picture = "Portrait_Thestralia_Stefan_Gunther.dds"
+	desc = "POLITICS_Stefan_Gunther_DESC"
+	ideology = volkische
+	traits = {
+		
+	}
+}
+
 create_field_marshal = {
 	name = "Flavius Antony Goldmane"
 	picture = "Portrait_Thestralia_Flavius_Antony_Goldmane.dds"
-	traits = { }
+	traits = { old_guard inflexible_strategist trait_cautious infantry_officer infantry_leader}
 	skill = 5
 	attack_skill = 3
 	defense_skill = 5
@@ -40,18 +62,18 @@ create_field_marshal = {
 create_corps_commander = {
 	name = "Tiberius Silvermane"
 	picture = "Portrait_Thestralia_Tiberius_Silvermane.dds"
-	traits = { }
-	skill = 5
-	attack_skill = 5
+	traits = { old_guard politically_connected harsh_leader}
+	skill = 4
+	attack_skill = 4
 	defense_skill = 4
 	planning_skill = 3
-	logistics_skill = 4
+	logistics_skill = 3
 }
 
 create_corps_commander = {
 	name = "Sikar Tenebris"
 	picture = "Portrait_Thestralia_Sikar_Tenebris.dds"
-	traits = { }
+	traits = { brilliant_strategist harsh_leader }
 	skill = 3
 	attack_skill = 3
 	defense_skill = 2
@@ -62,7 +84,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Nightstrike"
 	picture = "Portrait_Thestralia_Nightstrike.dds"
-	traits = {  }
+	traits = { harsh_leader armor_officer panzer_leader }
 	skill = 2
 	attack_skill = 2
 	defense_skill = 2
@@ -73,6 +95,6 @@ create_corps_commander = {
 create_navy_leader = {
 	name = "Lorenzo Patel"
 	picture = "Portrait_Thestralia_Lorenzo_Patel.dds"
-	traits = {  }
+	traits = { media_personality sea_wolf }
 	skill = 3
 }

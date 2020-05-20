@@ -18,6 +18,9 @@ ideologies = {
 
 			tribal_federation = {
 			}
+			
+			market_liberalism = {
+			}
 
 		}
 
@@ -141,7 +144,12 @@ ideologies = {
 			
 			bandit = {
 			}
+			
 			plutocracy = {
+			}
+			
+			#only bats
+			volkische = {
 			}
 		}
 
