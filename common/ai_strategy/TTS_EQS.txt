@@ -1,0 +1,20 @@
+Canterlot_pact_eqs = {
+	allowed = {
+		has_idea = member_of_canterlot_pact
+	}
+	ai_strategy = {
+		type = alliance
+		id = "EQS"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "LUN"
+		value = 200
+	}
+	ai_strategy = {
+		type = alliance
+		id = "CEL"
+		value = 200
+	}
+}

@@ -1,0 +1,161 @@
+shared_focus = {
+
+		id = CRY_between_two_fires
+		icon = GFX_goal_CRY_between_two_fires
+		x = 3
+		y = 0
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CRY_between_two_fires"
+			country_event = { id = CRY_prewar.1 }
+		}
+
+
+}
+
+shared_focus = {
+
+		id = CRY_crystal_fair_preparations
+		icon = GFX_goal_CRY_crystal_fair_preparations
+		x = 3
+		y = 1
+		cost = 2
+
+		available_if_capitulated = yes
+		prerequisite = { focus = CRY_between_two_fires }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CRY_crystal_fair_preparations"
+			country_event = { id = CRY_prewar.2 }
+		}
+
+}
+
+shared_focus = {
+
+		id = CRY_calling_for_world_leaders
+		icon = GFX_goal_CRY_calling_for_world_leaders
+		x = 0
+		y = 2
+		cost = 1
+
+		available_if_capitulated = yes
+		prerequisite = { focus = CRY_crystal_fair_preparations }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CRY_calling_for_world_leaders"
+			country_event = { id = CRY_prewar.3 }
+		}
+
+}
+
+shared_focus = {
+
+		id = CRY_clean_the_streets
+		icon = GFX_goal_CRY_clean_the_streets
+		x = 2
+		y = 2
+		cost = 3
+
+		available_if_capitulated = yes
+		prerequisite = { focus = CRY_crystal_fair_preparations }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CRY_clean_the_streets"
+			country_event = { id = CRY_prewar.4 }
+		}
+
+}
+
+
+shared_focus = {
+
+		id = CRY_plebs_question
+		icon = GFX_goal_CRY_plebs_question
+		x = 2
+		y = 3
+		cost = 2
+
+		available_if_capitulated = yes
+		prerequisite = { focus = CRY_clean_the_streets }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CRY_drive_away_plebs"
+			country_event = { id = CRY_prewar.5 }
+		}
+		
+}
+
+shared_focus = {
+
+		id = CRY_call_the_republican_leaders
+		icon = GFX_goal_CRY_call_the_republican_leaders
+		x = 4
+		y = 2
+		cost = 1
+
+		available_if_capitulated = yes
+		prerequisite = { focus = CRY_crystal_fair_preparations }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CRY_call_the_republican_leaders"
+			country_event = { id = CRY_prewar.6 }
+		}
+		
+}
+
+shared_focus = {
+
+		id = CRY_call_the_crystal_clear_journalists
+		icon = GFX_goal_CRY_call_the_crystal_clear_journalists
+		x = 4
+		y = 3
+		cost = 1
+
+		available_if_capitulated = yes
+		prerequisite = { focus = CRY_call_the_republican_leaders }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CRY_call_the_republican_leaders"
+			country_event = { id = CRY_prewar.6 }
+		}
+		
+}
+
+
+shared_focus = {
+
+		id = CRY_rise_royal_guard
+		icon = GFX_goal_CRY_rise_royal_guard
+		x = 6
+		y = 2
+		cost = 2
+
+		available_if_capitulated = yes
+		prerequisite = { focus = CRY_crystal_fair_preparations }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CRY_rise_royal_guard"
+			country_event = { id = CRY_prewar.6 }
+		}
+		
+}
+
+shared_focus = {
+
+		id = CRY_final_reparations
+		icon = GFX_goal_CRY_final_reparations
+		x = 3
+		y = 4
+		cost = 3
+
+		available_if_capitulated = yes
+		prerequisite = { focus = CRY_calling_for_world_leaders }
+		prerequisite = { focus = CRY_plebs_question }
+		prerequisite = { focus = CRY_call_the_crystal_clear_journalists }
+		prerequisite = { focus = CRY_rise_royal_guard }
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CRY_final_reparations"
+			country_event = { id = CRY_prewar.6 }
+		}
+		
+}
+
+

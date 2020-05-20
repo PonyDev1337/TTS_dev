@@ -1,0 +1,17 @@
+shared_focus = {
+
+		id = CRY_storm_on_crystal_city
+		icon = GFX_goal_CRY_storm_on_crystal_city
+		x = 12
+		y = 0
+		cost = 1
+
+		available_if_capitulated = yes
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus CRY_storm_on_crystal_city"
+			country_event = { id = CRY_unrest.1 }
+		}
+
+
+
+}
