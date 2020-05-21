@@ -1,0 +1,83 @@
+
+focus_tree = {
+    id = baltimare
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = EBM
+        }
+    }
+
+    focus = {
+        id = EBM_start_rev
+        x = 9
+        y = 0
+        cost = 10
+        ai_will_do = {100}
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_start_rev"
+        }
+        completion_reward = {
+           country_event = { id = baltimare.5 }
+        }
+    }
+
+    focus = {
+        id = EBM_fires_of_rev
+        x = 9
+        y = 1
+        cost = 10
+        ai_will_do = { 100 }
+        prerequisite = { focus = EBM_start_rev }
+        select_effect = {
+            country_event = {
+                id = baltimare.1
+                days = 10
+            }
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_fires_of_rev"
+        }
+    }
+    focus = {
+        id = EBM_provisional_gov
+        x = 9
+        y = 2
+        cost = 10
+        ai_will_do = { 100 }
+        prerequisite = { focus = EBM_fires_of_rev }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_provisional_gov"
+        }
+    }
+    focus = {
+        id = EBM_support_DC
+        x = 7
+        y = 3
+        cost = 20
+        ai_will_do = { 300 }
+        prerequisite = { focus = EBM_provisional_gov }
+        mutually_exclusive = {
+            focus = EBM_support_BSS
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_support_DC"
+        }
+    }
+    focus = {
+        id = EBM_support_BSS
+        x = 11
+        y = 3
+        cost = 20
+        ai_will_do = { 100 }
+        prerequisite = { focus = EBM_provisional_gov }
+        mutually_exclusive = {
+            focus = EBM_support_DC
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_support_BSS"
+        }
+    }
+
+}
