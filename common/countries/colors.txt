@@ -908,3 +908,24 @@ CLO = {
 	color = rgb { 105 247 254 }
 	color_ui = rgb { 105 247 254 }
 }
+
+NVL = {
+	color = rgb { 163 163 243 }
+	color_ui = rgb { 163 163 243 }
+}
+RUD = {
+	color = rgb { 241 165 170 }
+	color_ui = rgb { 241 165 170 }
+}
+KRG = {
+	color = rgb { 89 19 102 }
+	color_ui = rgb { 89 19 102 }
+}
+PRS = {
+	color = rgb { 135 33 197 }
+	color_ui = rgb { 135 33 197 }
+}
+RAB = {
+	color = rgb { 241 165 218 }
+	color_ui = rgb { 241 165 218 }
+}

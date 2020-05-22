@@ -1,0 +1,29 @@
+﻿capital = 1
+
+
+set_popularities = {
+	democratic = 0
+	fascism = 0
+	communism = 0
+	neutrality = 0
+	reformism = 0
+	alt_left = 100
+}
+set_politics = {
+
+	ruling_party = alt_left
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Black Diamond"
+	expire = "1965.1.1"
+	picture = "Kurgimen.tga"
+	ideology = red_metaphysical
+	desc = "POLITICS_Diamond_DESC"
+	traits = {
+		hypnotizing_demagogue
+	}
+}
