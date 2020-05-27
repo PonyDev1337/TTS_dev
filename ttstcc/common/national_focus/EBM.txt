@@ -11,73 +11,73 @@ focus_tree = {
 
     focus = {
         id = EBM_start_rev
-        x = 9
+        icon = GFX_goal_stg_socialist_revolution_pony
+        x = 12
         y = 0
         cost = 10
-        ai_will_do = {100}
-        completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus EBM_start_rev"
+        select_effect = {
+            country_event = {
+                id = baltimare.5
+                days = 10
+            }
         }
         completion_reward = {
-           country_event = { id = baltimare.5 }
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_start_rev"
         }
     }
 
     focus = {
         id = EBM_fires_of_rev
-        x = 9
+        icon = GFX_goal_support_communism
+        x = 12
         y = 1
         cost = 10
-        ai_will_do = { 100 }
-        prerequisite = { focus = EBM_start_rev }
         select_effect = {
-            country_event = {
-                id = baltimare.1
-                days = 10
-            }
+            country_event = baltimare.1
+            days = 10
         }
         completion_reward = {
             log = "[GetDateText]: [Root.GetName]: Focus EBM_fires_of_rev"
         }
+        prerequisite = { focus = EBM_start_rev }
     }
+
     focus = {
         id = EBM_provisional_gov
-        x = 9
+        icon = GFX_focus_generic_soviet_politics
+        x = 12
         y = 2
         cost = 10
-        ai_will_do = { 100 }
-        prerequisite = { focus = EBM_fires_of_rev }
         completion_reward = {
             log = "[GetDateText]: [Root.GetName]: Focus EBM_provisional_gov"
         }
+        prerequisite = { focus = EBM_fires_of_rev }
     }
+
     focus = {
         id = EBM_support_DC
-        x = 7
+        icon = GFX_goal_ideology_syndicalist
+        x = 10
         y = 3
-        cost = 20
-        ai_will_do = { 300 }
-        prerequisite = { focus = EBM_provisional_gov }
-        mutually_exclusive = {
-            focus = EBM_support_BSS
-        }
+        cost = 10
         completion_reward = {
             log = "[GetDateText]: [Root.GetName]: Focus EBM_support_DC"
         }
+        prerequisite = { focus = EBM_provisional_gov }
+        mutually_exclusive = { focus = EBM_support_BSS }
     }
+
     focus = {
         id = EBM_support_BSS
-        x = 11
+        icon = GFX_goal_ideology_totalist
+        x = 14
         y = 3
-        cost = 20
-        ai_will_do = { 100 }
-        prerequisite = { focus = EBM_provisional_gov }
-        mutually_exclusive = {
-            focus = EBM_support_DC
-        }
+        cost = 10
         completion_reward = {
             log = "[GetDateText]: [Root.GetName]: Focus EBM_support_BSS"
         }
+        prerequisite = { focus = EBM_provisional_gov }
+        mutually_exclusive = { focus = EBM_support_DC }
     }
 
 }
