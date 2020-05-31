@@ -1,4 +1,30 @@
 spriteTypes = {
+	#idea
+	SpriteType = {
+		name = "GFX_idea_HAU_Crossroad_and_New_Resourses"
+		texturefile = "gfx/interface/ideas/HAU/HAU_Crossroad_and_New_Resourses.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HAU_Different_NRP"
+		texturefile = "gfx/interface/ideas/HAU/HAU_Different_NRP.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HAU_Golden_Decade"
+		texturefile = "gfx/interface/ideas/HAU/HAU_Golden_Decade.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HAU_Memorizes_of_Revolution"
+		texturefile = "gfx/interface/ideas/HAU/HAU_Memorizes_of_Revolution.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HAU_NPJP_out_of_control"
+		texturefile = "gfx/interface/ideas/HAU/HAU_NPJP_out_of_control.dds"
+	}
+	SpriteType = {
+		name = "GFX_idea_HAU_Oil_Clique"
+		texturefile = "gfx/interface/ideas/HAU/HAU_Oil_Clique.dds"
+	}
+	#focus
 	SpriteType = {
 		name = "GFX_goal_HAU_Armed_Against_White_Army"
 		texturefile = "gfx/interface/goals/HAU/goal_HAU_Armed_Against_White_Army.dds"

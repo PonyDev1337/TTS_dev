@@ -1,0 +1,39 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_President_GUI_bg"
+		texturefile = "gfx/interface/ttstcc_gui/Griffonia_Republic/President_GUI_bg.dds"
+	}
+	SpriteType = {
+		name = "GFX_President_GUI_button"
+		texturefile = "gfx/interface/ttstcc_gui/Griffonia_Republic/President_GUI_button.dds"
+	}
+	SpriteType = {
+		name = "GFX_President_GUI_documents"
+		texturefile = "gfx/interface/ttstcc_gui/Griffonia_Republic/President_GUI_documents.dds"
+	}
+	SpriteType = {
+		name = "GFX_President_GUI_harbor"
+		texturefile = "gfx/interface/ttstcc_gui/Griffonia_Republic/President_GUI_harbor.dds"
+	}
+	SpriteType = {
+		name = "GFX_President_GUI_major_object"
+		texturefile = "gfx/interface/ttstcc_gui/Griffonia_Republic/President_GUI_major_object.dds"
+	}
+	SpriteType = {
+		name = "GFX_President_GUI_Nord_Brillant"
+		texturefile = "gfx/interface/ttstcc_gui/Griffonia_Republic/President_GUI_Nord_Brillant.dds"
+	}
+	SpriteType = {
+		name = "GFX_President_GUI_picture_frame"
+		texturefile = "gfx/interface/ttstcc_gui/Griffonia_Republic/President_GUI_picture_frame.dds"
+	}
+	SpriteType = {
+		name = "GFX_President_GUI_pistol"
+		texturefile = "gfx/interface/ttstcc_gui/Griffonia_Republic/President_GUI_pistol.dds"
+	}
+	SpriteType = {
+		name = "GFX_President_GUI_telephone"
+		texturefile = "gfx/interface/ttstcc_gui/Griffonia_Republic/President_GUI_telephone.dds"
+	}
+	
+}

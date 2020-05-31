@@ -68,15 +68,19 @@ set_politics = {
 	elections_allowed = no
 }
 add_ideas = {
-	lack_of_scientists2
-	poverty5
+	HAU_Crossroad_and_New_Resourses_idea
+	HAU_Memorizes_of_Revolution_idea
+	HAU_Oil_Clique_idea
+	HAU_NPJP_out_of_control_idea
+	HAU_Golden_Decade_idea
+	HAU_Different_NRP_idea
 }
 
 set_stability = 0.50
 create_country_leader = {
-	name = "Senators of NJPP"
+	name = "Nord Brillant"
 
-	picture = "Military_Council.tga"
+	picture = "Nord_Brillant.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
@@ -129,7 +133,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Members of Republican Bureau of Investigation and Statistics"
+	name = "Rikard Astler"
 	desc = ""
 	picture = "Military_Council.tga"
 	expire = "1965.1.1"

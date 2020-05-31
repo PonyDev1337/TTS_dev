@@ -19,6 +19,9 @@ country_event = {#President's New year speech
 	is_triggered_only = yes
 	option = {
 		name = HAUREP.2.a
+		hidden_effect = {
+			country_event = { id = HAUREP.3 day = 2 }
+		}
 	}
 }
 
@@ -30,6 +33,9 @@ country_event = {#Parade!
 	is_triggered_only = yes
 	option = {
 		name = HAUREP.3.a
+		hidden_effect = {
+			country_event = { id = HAUREP.4 hours = 4 }
+		}
 	}
 }
 
@@ -41,6 +47,9 @@ country_event = {#Haukhamn industry!
 	is_triggered_only = yes
 	option = {
 		name = HAUREP.4.a
+		hidden_effect = {
+			country_event = { id = HAUREP.5 day = 2 }
+		}
 	}
 }
 
@@ -52,7 +61,9 @@ country_event = {#Winterhold Rubber!
 	is_triggered_only = yes
 	option = {
 		name = HAUREP.5.a
-		country_event = { id = HAUREP.8 hours = 2}
+		hidden_effect = {
+			country_event = { id = HAUREP.8 hours = 2}
+		}
 	}
 }
 
@@ -64,10 +75,16 @@ country_event = {#Oil rig!
 	is_triggered_only = yes
 	option = {#go to talk with walter
 		name = HAUREP.6.a
-		country_event = { id = HAUREP.7 days = 1 }
+		hidden_effect = {
+			country_event = { id = HAUREP.7 days = 1 }
+			country_event = { id = HAUREP.9 days = 3 }
+		}
 	}
 	option = {#never mind
 		name = HAUREP.6.b
+		hidden_effect = {
+			country_event = { id = HAUREP.9 days = 3 }
+		}
 	}
 }
 
@@ -79,6 +96,7 @@ country_event = {#Talk with walter
 	is_triggered_only = yes
 	option = {
 		name = HAUREP.7.a
+		set_country_flag = AKJ_talked_with_emrich
 	}
 }
 
@@ -112,6 +130,7 @@ country_event = {#Golden Decade?
 	is_triggered_only = yes
 	option = {
 		name = HAUREP.10.a
+		
 	}
 }
 
@@ -126,7 +145,7 @@ country_event = {#Cyka cola!
 	}
 }
 
-country_event = {#NPJP's speech in Haukhamn
+country_event = {#Brillant's speech in Haukhamn
 	id = HAUREP.12
 	title = HAUREP.12.t
 	desc = HAUREP.12.d
@@ -134,6 +153,9 @@ country_event = {#NPJP's speech in Haukhamn
 	is_triggered_only = yes
 	option = {
 		name = HAUREP.12.a
+		hidden_effect = {
+			country_event = { id = HAUREP.13 hours = 7 }
+		}
 	}
 }
 
@@ -145,6 +167,9 @@ country_event = {#NPJP United forever - FNMDP
 	is_triggered_only = yes
 	option = {
 		name = HAUREP.13.a
+		hidden_effect = {
+			country_event = { id = HAUREP.14 hours = 4 }
+		}
 	}
 }
 
@@ -156,9 +181,16 @@ country_event = {#NPJP chaos countinue!
 	is_triggered_only = yes
 	option = {#hahahahaha
 		name = HAUREP.14.a
+		hidden_effect = {
+			country_event = { id = HAUREP.15 hours = 7 }
+		}
 	}
 	option = {#why not do sth?
 		name = HAUREP.14.b
+		hidden_effect = {
+			country_event = { id = HAUREP.15 hours = 7 }
+			set_country_flag = AKJ_Interfered_NPJP
+		}
 	}
 }
 
@@ -181,6 +213,9 @@ country_event = {#Our country is a Democracy Constitutional country!...wait!
 	is_triggered_only = yes
 	option = {
 		name = HAUREP.16.a
+		hidden_effect = {
+			country_event = { id = HAUREP.17 hours = 7 }
+		}
 	}
 }
 
