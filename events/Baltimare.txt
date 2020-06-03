@@ -95,6 +95,14 @@ country_event = {
 		name = baltimare.5.a
 		country_event = baltimare.6
 	}
+	option = {
+		name = baltimare.5.b
+		country_event = baltimare.6
+	}
+	option = {
+		name = baltimare.5.c
+		country_event = baltimare.6
+	}
 }
 
 country_event = {
@@ -104,6 +112,47 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = baltimare.6.a
+		country_event = {
+			id = baltimare.7
+			days = 5
+		}
+	}
+	option = {
+		name = baltimare.6.bSSSS
+		country_event = {
+			id = baltimare.7
+			days = 5
+		}
+	}
+}
+
+country_event = {
+	id = baltimare.7
+	title = baltimare.7.t
+	desc = baltimare.7.d
+	is_triggered_only = yes
+	option = {
+		name = baltimare.7.a
+		country_event = {
+			id = baltimare.8
+			days = 30
+		}
+	}
+}
+
+country_event = {
+	id = baltimare.8
+	title = baltimare.8.t
+	desc = baltimare.8.d
+	is_triggered_only = yes
+	option = {
+		name = baltimare.8.a
+	}
+	option = {
+		name = baltimare.8.b
+	}
+	option = {
+		name = baltimare.8.c
 	}
 }
 
