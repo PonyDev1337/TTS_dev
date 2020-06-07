@@ -1,0 +1,1969 @@
+add_namespace = HAUREP
+
+country_event = {#STARRRRRRRRRRRRRRRRRT
+	id = HAUREP.1
+	title = HAUREP.1.t
+	desc = HAUREP.1.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.1"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.1.a
+	}
+}
+
+country_event = {#President's New year speech
+	id = HAUREP.2
+	title = HAUREP.2.t
+	desc = HAUREP.2.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.2"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.2.a
+		hidden_effect = {
+			country_event = { id = HAUREP.3 day = 2 }
+		}
+	}
+}
+
+country_event = {#Parade!
+	id = HAUREP.3
+	title = HAUREP.3.t
+	desc = HAUREP.3.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.3"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.3.a
+		hidden_effect = {
+			country_event = { id = HAUREP.4 hours = 4 }
+		}
+	}
+}
+
+country_event = {#Haukhamn industry!
+	id = HAUREP.4
+	title = HAUREP.4.t
+	desc = HAUREP.4.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.4"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.4.a
+		hidden_effect = {
+			country_event = { id = HAUREP.5 day = 2 }
+		}
+	}
+}
+
+country_event = {#Winterhold Rubber!
+	id = HAUREP.5
+	title = HAUREP.5.t
+	desc = HAUREP.5.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.5"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.5.a
+		hidden_effect = {
+			country_event = { id = HAUREP.8 hours = 2}
+		}
+	}
+}
+
+country_event = {#Oil rig!
+	id = HAUREP.6
+	title = HAUREP.6.t
+	desc = HAUREP.6.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.6"}
+	is_triggered_only = yes
+	option = {#go to talk with walter
+		name = HAUREP.6.a
+		hidden_effect = {
+			country_event = { id = HAUREP.7 days = 1 }
+			country_event = { id = HAUREP.9 days = 3 }
+		}
+	}
+	option = {#never mind
+		name = HAUREP.6.b
+		hidden_effect = {
+			country_event = { id = HAUREP.9 days = 3 }
+		}
+	}
+}
+
+country_event = {#Talk with walter
+	id = HAUREP.7
+	title = HAUREP.7.t
+	desc = HAUREP.7.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.7"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.7.a
+		set_country_flag = AKJ_talked_with_emrich
+	}
+}
+
+country_event = {#Talk with Oil gang members
+	id = HAUREP.8
+	title = HAUREP.8.t
+	desc = HAUREP.8.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.8"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.8.a
+	}
+}
+
+country_event = {#Back to loyal presidential palace
+	id = HAUREP.9
+	title = HAUREP.9.t
+	desc = HAUREP.9.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.9"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.9.a
+	}
+}
+
+country_event = {#Golden Decade?
+	id = HAUREP.10
+	title = HAUREP.10.t
+	desc = HAUREP.10.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.10"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.10.a
+		
+	}
+}
+
+country_event = {#Cyka cola!
+	id = HAUREP.11
+	title = HAUREP.11.t
+	desc = HAUREP.11.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.11"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.11.a
+	}
+}
+
+country_event = {#Brillant's speech in Haukhamn
+	id = HAUREP.12
+	title = HAUREP.12.t
+	desc = HAUREP.12.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.12"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.12.a
+		hidden_effect = {
+			country_event = { id = HAUREP.13 hours = 7 }
+		}
+	}
+}
+
+country_event = {#NPJP United forever - FNMDP
+	id = HAUREP.13
+	title = HAUREP.13.t
+	desc = HAUREP.13.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.13"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.13.a
+		hidden_effect = {
+			country_event = { id = HAUREP.14 hours = 4 }
+		}
+	}
+}
+
+country_event = {#NPJP chaos countinue!
+	id = HAUREP.14
+	title = HAUREP.14.t
+	desc = HAUREP.14.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.14"}
+	is_triggered_only = yes
+	option = {#hahahahaha
+		name = HAUREP.14.a
+		hidden_effect = {
+			country_event = { id = HAUREP.15 hours = 7 }
+		}
+	}
+	option = {#why not do sth?
+		name = HAUREP.14.b
+		hidden_effect = {
+			country_event = { id = HAUREP.15 hours = 7 }
+			set_country_flag = AKJ_Interfered_NPJP
+		}
+	}
+}
+
+country_event = {#AKJ: Well, those idoit
+	id = HAUREP.15
+	title = HAUREP.15.t
+	desc = HAUREP.15.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.15"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.15.a
+	}
+}
+
+country_event = {#Our country is a Democracy Constitutional country!...wait!
+	id = HAUREP.16
+	title = HAUREP.16.t
+	desc = HAUREP.16.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.16"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.16.a
+		hidden_effect = {
+			country_event = { id = HAUREP.17 hours = 7 }
+		}
+	}
+}
+
+country_event = {#Rig worker protest!
+	id = HAUREP.17
+	title = HAUREP.17.t
+	desc = HAUREP.17.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.17"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.17.a
+	}
+}
+
+country_event = {#Work done policemen!
+	id = HAUREP.18
+	title = HAUREP.18.t
+	desc = HAUREP.18.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.18"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.18.a
+	}
+}
+
+country_event = {
+	id = HAUREP.19
+	title = HAUREP.19.t
+	desc = HAUREP.19.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.19"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.19.a
+	}
+}
+
+country_event = {#I HATE MEDIA!
+	id = HAUREP.20
+	title = HAUREP.20.t
+	desc = HAUREP.20.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.20"}
+	is_triggered_only = yes
+	option = {#Yes! It's ALL fooking OIL GANG's FAULT!
+		name = HAUREP.20.a
+	}
+	option = {#I WILL USE TANK TO DESTROY ALL OF YOU
+		name = HAUREP.20.b
+	}
+}
+
+country_event = {#Worker's Complaint
+	id = HAUREP.21
+	title = HAUREP.21.t
+	desc = HAUREP.21.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.21"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.21.a
+	}
+}
+
+country_event = {#Somegriffon die!
+	id = HAUREP.22
+	title = HAUREP.22.t
+	desc = HAUREP.22.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.22"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.22.a
+	}
+}
+
+country_event = {#More demonstrations!
+	id = HAUREP.23
+	title = HAUREP.23.t
+	desc = HAUREP.23.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.23"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.23.a
+	}
+}
+
+country_event = {#Finally RIS come
+	id = HAUREP.24
+	title = HAUREP.24.t
+	desc = HAUREP.24.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.24"}
+	is_triggered_only = yes
+	option = {#Yep
+		name = HAUREP.24.a
+	}
+	option = {#Nope
+		name = HAUREP.24.b
+	}
+}
+
+country_event = {#We safe...for now?
+	id = HAUREP.25
+	title = HAUREP.25.t
+	desc = HAUREP.25.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.25"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.25.a
+	}
+}
+
+country_event = {#We got problem...more demonstrations!
+	id = HAUREP.26
+	title = HAUREP.26.t
+	desc = HAUREP.26.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.26"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.26.a
+	}
+}
+
+country_event = {#Air transportation unit move move move!
+	id = HAUREP.27
+	title = HAUREP.27.t
+	desc = HAUREP.27.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.27"}
+	is_triggered_only = yes
+	option = {#General Paulus!
+		name = HAUREP.27.a
+		set_country_flag = Paulus_AT
+	}
+	option = {#General Walter!
+		name = HAUREP.27.b
+		set_country_flag = Walter_AT
+	}
+}
+
+country_event = {#Air transportation unit!Wait, what happen?
+	id = HAUREP.28
+	title = HAUREP.28.t
+	desc = HAUREP.28.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.28"}
+	is_triggered_only = yes
+	option = {#NICE!
+		name = HAUREP.28.a
+		trigger = {
+			has_country_flag = Paulus_AT
+		}
+	}
+	option = {#Motherfucker Walter!
+		name = HAUREP.28.b
+		trigger = {
+			has_country_flag = Walter_AT
+		}
+	}
+}
+
+country_event = {#Sunglider condemn Government!
+	id = HAUREP.29
+	title = HAUREP.29.t
+	desc = HAUREP.29.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.29"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.29.a
+	}
+}
+
+country_event = {#WTF NPJP united?!
+	id = HAUREP.30
+	title = HAUREP.30.t
+	desc = HAUREP.30.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.30"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.30.a
+	}
+}
+
+country_event = {#Walter! What fuck are you doing !
+	id = HAUREP.31
+	title = HAUREP.31.t
+	desc = HAUREP.31.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.31"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.31.a
+	}
+}
+
+country_event = {#NRP-L's member denounce us!
+	id = HAUREP.32
+	title = HAUREP.32.t
+	desc = HAUREP.32.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.32"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.32.a
+	}
+}
+
+country_event = {#FUCK FUCK FUCK FUCK FUCK WE GOT PROBLEM NOW SOMEGRIFFON EAVEDROPPING THE PRESIDENT ON THE OIL RIG
+	id = HAUREP.33
+	title = HAUREP.33.t
+	desc = HAUREP.33.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.33"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.33.a
+	}
+}
+
+country_event = {#GIANT MOVEMENT!
+	id = HAUREP.34
+	title = HAUREP.34.t
+	desc = HAUREP.34.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.34"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.34.a
+	}
+}
+
+country_event = {#WALTER!YOU FUCKING TRAITOR!
+	id = HAUREP.35
+	title = HAUREP.35.t
+	desc = HAUREP.35.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.35"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.35.a
+	}
+}
+
+country_event = {#Paulus...you cant dispatch?!
+	id = HAUREP.36
+	title = HAUREP.36.t
+	desc = HAUREP.36.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.36"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.36.a
+	}
+}
+
+country_event = {#NPJP lead the movement NOW!
+	id = HAUREP.37
+	title = HAUREP.37.t
+	desc = HAUREP.37.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.37"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.37.a
+	}
+}
+
+country_event = {#Astler! I HATE YOU!
+	id = HAUREP.38
+	title = HAUREP.38.t
+	desc = HAUREP.38.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.38"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.38.a
+	}
+}
+
+country_event = {#I AM THREE PRICIPLES'PROTECTOR!
+	id = HAUREP.39
+	title = HAUREP.39.t
+	desc = HAUREP.39.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.39"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.39.a
+	}
+}
+
+country_event = {#You said I am another Kingfeather?! Go fuck yourself!
+	id = HAUREP.40
+	title = HAUREP.40.t
+	desc = HAUREP.40.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.40"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.40.a
+	}
+}
+
+country_event = {#THOSE GENERALS! RIS!What could you guys do?
+	id = HAUREP.41
+	title = HAUREP.41.t
+	desc = HAUREP.41.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.41"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.41.a
+	}
+}
+
+country_event = {#Media:Our president want to use tank again!
+	id = HAUREP.42
+	title = HAUREP.42.t
+	desc = HAUREP.42.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.42"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.42.a
+	}
+}
+
+country_event = {#Media:Our presidemt even want use tank!
+	id = HAUREP.43
+	title = HAUREP.43.t
+	desc = HAUREP.43.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.43"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.43.a
+	}
+}
+
+country_event = {#Even the NRP-Center now 
+	id = HAUREP.44
+	title = HAUREP.44.t
+	desc = HAUREP.44.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.44"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.44.a
+	}
+}
+
+country_event = {#NPJP-C yesman huh?
+	id = HAUREP.45
+	title = HAUREP.45.t
+	desc = HAUREP.45.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.45"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.45.a
+	}
+}
+
+country_event = {#We got die! those judicial commissioners arrest frosh!
+	id = HAUREP.46
+	title = HAUREP.46.t
+	desc = HAUREP.46.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.46"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.46.a
+	}
+}
+
+country_event = {#Frosh confessed!
+	id = HAUREP.47
+	title = HAUREP.47.t
+	desc = HAUREP.47.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.47"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.47.a
+	}
+}
+
+country_event = {#Mr.President...peoples coming
+	id = HAUREP.48
+	title = HAUREP.48.t
+	desc = HAUREP.48.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.48"}
+	is_triggered_only = yes
+	option = {#Resign
+		name = HAUREP.48.a
+	}
+	option = {#Listen!I work for REPUBLIC everyday!
+		name = HAUREP.48.b
+	}
+	option = {#Meyer could get to Haukland by plane, I could escape by same way too!
+		name = HAUREP.48.c
+	}
+}
+
+country_event = {#General Paulus'Crime
+	id = HAUREP.49
+	title = HAUREP.49.t
+	desc = HAUREP.49.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.49"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.49.a
+	}
+}
+
+country_event = {#NPJP-R's Nord Brillant with the president
+	id = HAUREP.50
+	title = HAUREP.50.t
+	desc = HAUREP.50.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.50"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.50.a
+	}
+}
+
+country_event = {#NPJP--Voice of Haukland?
+	id = HAUREP.51
+	title = HAUREP.51.t
+	desc = HAUREP.51.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.51"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.51.a
+	}
+}
+
+country_event = {#NRP--Total crisis
+	id = HAUREP.52
+	title = HAUREP.52.t
+	desc = HAUREP.52.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.52"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.52.a
+	}
+}
+
+country_event = {#We will never fall people and democracy!
+	id = HAUREP.53
+	title = HAUREP.53.t
+	desc = HAUREP.53.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.53"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.53.a
+	}
+}
+
+country_event = {#NPJP-FR's little trick
+	id = HAUREP.54
+	title = HAUREP.54.t
+	desc = HAUREP.54.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.54"}
+	is_triggered_only = yes
+	option = {#Why not armed?
+		name = HAUREP.54.a
+		country_event = { id = HAUREP.55 }
+	}
+	option = {#Democracy first...yep?
+		name = HAUREP.54.b
+		country_event = { id = HAUREP.59 }
+	}
+}
+
+country_event = {#armed NPJP-FR
+	id = HAUREP.55
+	title = HAUREP.55.t
+	desc = HAUREP.55.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.55"}
+	is_triggered_only = yes
+	option = {#arsenal!
+		name = HAUREP.55.a
+	}
+	option = {#buy!
+		name = HAUREP.55.b
+	}
+}
+
+country_event = {#maybe ok?(arsenal)
+	id = HAUREP.56
+	title = HAUREP.56.t
+	desc = HAUREP.56.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.56"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.56.a
+	}
+}
+
+country_event = {#Profiteers!(buy)
+	id = HAUREP.57
+	title = HAUREP.57.t
+	desc = HAUREP.57.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.57"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.57.a
+	}
+}
+
+country_event = {#At least...everything ok?
+	id = HAUREP.58
+	title = HAUREP.58.t
+	desc = HAUREP.58.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.58"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.58.a
+	}
+}
+
+country_event = {#True to democracy...well
+	id = HAUREP.59
+	title = HAUREP.59.t
+	desc = HAUREP.59.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.59"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.59.a
+	}
+}
+
+country_event = {#I love scandal!
+	id = HAUREP.60
+	title = HAUREP.60.t
+	desc = HAUREP.60.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.60"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.60.a
+	}
+}
+
+country_event = {#tapping device!
+	id = HAUREP.61
+	title = HAUREP.61.t
+	desc = HAUREP.61.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.61"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.61.a
+	}
+}
+
+country_event = {#more?
+	id = HAUREP.62
+	title = HAUREP.62.t
+	desc = HAUREP.62.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.62"}
+	is_triggered_only = yes
+	option = {#why not?
+		name = HAUREP.62.a
+	}
+	option = {#enough
+		name = HAUREP.62.b
+	}
+}
+
+country_event = {#Everywhere!
+	id = HAUREP.63
+	title = HAUREP.63.t
+	desc = HAUREP.63.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.63"}
+	is_triggered_only = yes
+	option = {#yeeeeeeeeeeeeeeeeeeep
+		name = HAUREP.63.a
+	}
+	option = {#nope
+		name = HAUREP.63.b
+	}
+}
+
+country_event = {#NPJP Socialist's speech...not communist i ensure (communist need griffon maoism and a ture CULTURE REVOLTION! without them, even OGAS will be manipulated by bureaucrats
+	id = HAUREP.64
+	title = HAUREP.64.t
+	desc = HAUREP.64.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.64"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.64.a
+	}
+}
+
+country_event = {#NPJP-Center's opinion
+	id = HAUREP.65
+	title = HAUREP.65.t
+	desc = HAUREP.65.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.65"}
+	is_triggered_only = yes
+	option = {#stand with Left
+		name = HAUREP.65.a
+		set_country_flag = NPJP_Leftcenterunited
+	}
+	option = {#stand with Right
+		name = HAUREP.65.b
+		set_country_flag = NPJP_Rightcenterunited
+	}
+}
+
+country_event = {#Divided of NPJP
+	id = HAUREP.66
+	title = HAUREP.66.t
+	desc = HAUREP.66.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.66"}
+	is_triggered_only = yes
+	option = {#NPJP-L to WFJP
+		name = HAUREP.66.a
+		trigger = {
+			has_country_flag = NPJP_Rightcenterunited
+		}
+	}
+	option = {#NPJP-R to PUP
+		name = HAUREP.66.b
+		trigger = {
+			has_country_flag = NPJP_Leftcenterunited
+		}
+	}
+}
+
+country_event = {#NPJP Primary election(Left version)
+	id = HAUREP.67
+	title = HAUREP.67.t
+	desc = HAUREP.67.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.67"}
+	is_triggered_only = yes
+	option = {#Leader of Workers! Salaver Carlebach
+		name = HAUREP.67.a
+	}
+	option = {#Center could trust.  Andrea Di Marea
+		name = HAUREP.67.b
+	}
+	option = {#Deadlock!
+		name = HAUREP.67.c
+		country_event = { id = HAUREP.68 day = 2 }
+	}
+}
+
+country_event = {#Deadlock--NPJP-L
+	id = HAUREP.68
+	title = HAUREP.68.t
+	desc = HAUREP.68.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.68"}
+	is_triggered_only = yes
+	option = {#Slander PUP!We need time!
+		name = HAUREP.68.a
+		set_country_flag = Slander_PUP
+	}
+	option = {#We are not stupid Right-wings!
+		name = HAUREP.68.b
+		set_country_flag = Sunglider_return_NPJP_L
+	}
+}
+
+country_event = {#NPJP-L--after deadlock
+	id = HAUREP.69
+	title = HAUREP.69.t
+	desc = HAUREP.69.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.69"}
+	is_triggered_only = yes
+	option = {#Choose Andrea Di Marea, centrist
+		name = HAUREP.69.a
+	}
+	option = {#SUNGLIDER'S LEGACY
+		name = HAUREP.69.b
+		trigger = {
+			has_country_flag = Sunglider_return_NPJP_L
+		}
+	}
+}
+
+country_event = {#NPJP-L-primary election winner - Salaver Carlebach
+	id = HAUREP.70
+	title = HAUREP.70.t
+	desc = HAUREP.70.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.70"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.70.a
+	}
+}
+
+country_event = {#NPJP-L-primary election winner - Andrea Di Marea
+	id = HAUREP.71
+	title = HAUREP.71.t
+	desc = HAUREP.71.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.71"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.71.a
+	}
+}
+
+country_event = {#NPJP-L-primary election winner - SUNGLIDER
+	id = HAUREP.72
+	title = HAUREP.72.t
+	desc = HAUREP.72.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.72"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.72.a
+	}
+}
+
+country_event = {#NPJP-R Primary election
+	id = HAUREP.73
+	title = HAUREP.73.t
+	desc = HAUREP.73.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.73"}
+	is_triggered_only = yes
+	option = {#NPJP-FR want to do something
+		name = HAUREP.73.a
+	}
+	option = {#Nord Brillant!
+		name = HAUREP.73.b
+	}
+	option = {#Deadlock huh
+		name = HAUREP.73.c
+	}
+}
+
+country_event = {#Ernst X. shut fuck up
+	id = HAUREP.74
+	title = HAUREP.74.t
+	desc = HAUREP.74.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.74"}
+	is_triggered_only = yes
+	option = {#just talk
+		name = HAUREP.74.a
+	}
+	option = {#clear your tricks!
+		name = HAUREP.74.a
+	}
+}
+
+country_event = {#Deadlock - NPJP-R version
+	id = HAUREP.75
+	title = HAUREP.75.t
+	desc = HAUREP.75.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.75"}
+	is_triggered_only = yes
+	option = {#Andrea Di Marea again
+		name = HAUREP.75.a
+	}
+	option = {#FR coming...they know us?!
+		name = HAUREP.75.b
+	}
+}
+
+country_event = {#Long live our leader! Stupid FRs even dont know what happened!
+	id = HAUREP.76
+	title = HAUREP.76.t
+	desc = HAUREP.76.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.76"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.76.a
+	}
+}
+
+country_event = {#NPJP-R primary election - Andrea Di Marea
+	id = HAUREP.77
+	title = HAUREP.77.t
+	desc = HAUREP.77.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.77"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.77.a
+	}
+}
+
+country_event = {#NPJP-R primary election - Nord Brillant
+	id = HAUREP.78
+	title = HAUREP.78.t
+	desc = HAUREP.78.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.78"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.78.a
+	}
+}
+
+country_event = {#NPJP-R primary election - Ernst X.'s speech
+	id = HAUREP.79
+	title = HAUREP.79.t
+	desc = HAUREP.79.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.79"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.79.a
+	}
+}
+
+country_event = {#NPJP-R primary election - moderate Right defeat FR
+	id = HAUREP.80
+	title = HAUREP.80.t
+	desc = HAUREP.80.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.80"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.80.a
+	}
+}
+
+country_event = {#PUP's speech(NPJP-L only
+	id = HAUREP.81
+	title = HAUREP.81.t
+	desc = HAUREP.81.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.81"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.81.a
+	}
+}
+
+country_event = {#NPJP-L's scandal
+	id = HAUREP.82
+	title = HAUREP.82.t
+	desc = HAUREP.82.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.82"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.82.a
+	}
+}
+
+country_event = {#PUP/NPJP-FR's tricks show!
+	id = HAUREP.83
+	title = HAUREP.83.t
+	desc = HAUREP.83.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.83"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.83.a
+	}
+}
+
+country_event = {#WFJP's speech(NPJP-R only
+	id = HAUREP.84
+	title = HAUREP.84.t
+	desc = HAUREP.84.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.84"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.84.a
+	}
+}
+
+country_event = {#NPJP-FR - Monarch? Heir of Rosewing?
+	id = HAUREP.85
+	title = HAUREP.85.t
+	desc = HAUREP.85.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.85"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.85.a
+	}
+}
+
+country_event = {#Election(NPJP RULE GAME
+	id = HAUREP.86
+	title = HAUREP.86.t
+	desc = HAUREP.86.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.86"}
+	is_triggered_only = yes
+	option = {#Carlebach
+		name = HAUREP.86.a
+	}
+	option = {#Sunglider
+		name = HAUREP.86.b
+	}
+	option = {#Di Marea(Left version
+		name = HAUREP.86.c
+	}
+	option = {#PUP WTF
+		name = HAUREP.86.e
+	}
+	option = {#WFJP WOW
+		name = HAUREP.86.f
+	}
+	option = {#Di Marea(Right version
+		name = HAUREP.86.g
+	}
+	option = {#Nord Brillant
+		name = HAUREP.86.h
+	}
+	option = {#Ernst X.!
+		name = HAUREP.86.i
+	}
+	option = {#FR's Coup hahahahahahahahahahaha
+		name = HAUREP.86.j
+	}
+}
+
+country_event = {#Coup - in fact, it's joke
+	id = HAUREP.87
+	title = HAUREP.87.t
+	desc = HAUREP.87.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.87"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.87.a
+	}
+}
+
+country_event = {#Well,because Ernst X., Left win
+	id = HAUREP.88
+	title = HAUREP.88.t
+	desc = HAUREP.88.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.88"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.88.a
+	}
+}
+
+country_event = {#Socialist's new Republic!
+	id = HAUREP.89
+	title = HAUREP.89.t
+	desc = HAUREP.89.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.89"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.89.a
+	}
+}
+
+country_event = {#Sunglider say:For future of republc!
+	id = HAUREP.90
+	title = HAUREP.90.t
+	desc = HAUREP.90.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.90"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.90.a
+	}
+}
+
+country_event = {#Stablity - Andrea Di Marea(L
+	id = HAUREP.91
+	title = HAUREP.91.t
+	desc = HAUREP.91.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.91"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.91.a
+	}
+}
+
+country_event = {#Stablity - Andrea Di Marea(R
+	id = HAUREP.92
+	title = HAUREP.92.t
+	desc = HAUREP.92.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.92"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.92.a
+	}
+}
+
+country_event = {#Stupid coup...For socialist!
+	id = HAUREP.93
+	title = HAUREP.93.t
+	desc = HAUREP.93.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.93"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.93.a
+	}
+}
+
+country_event = {#PUP WIN!
+	id = HAUREP.94
+	title = HAUREP.94.t
+	desc = HAUREP.94.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.94"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.94.a
+	}
+}
+
+country_event = {#WFJP WIN!
+	id = HAUREP.95
+	title = HAUREP.95.t
+	desc = HAUREP.95.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.95"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.95.a
+	}
+}
+
+country_event = {#For our glorious leader! Nord Brillant!
+	id = HAUREP.96
+	title = HAUREP.96.t
+	desc = HAUREP.96.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.96"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.96.a
+	}
+}
+
+country_event = {#Ernst X.'s future, our future
+	id = HAUREP.97
+	title = HAUREP.97.t
+	desc = HAUREP.97.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.97"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.97.a
+	}
+}
+
+country_event = {#Mr.President, well, two mouth emergency
+	id = HAUREP.98
+	title = HAUREP.98.t
+	desc = HAUREP.98.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.98"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.98.a
+	}
+}
+
+country_event = {#Meeting with NPJP-Center
+	id = HAUREP.99
+	title = HAUREP.99.t
+	desc = HAUREP.99.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.99"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.99.a
+	}
+}
+
+country_event = {#Meeting with Egon Schneider
+	id = HAUREP.100
+	title = HAUREP.100.t
+	desc = HAUREP.100.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.100"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.100.a
+	}
+}
+
+country_event = {#Meeting with NRP-L or just Rikard
+	id = HAUREP.101
+	title = HAUREP.101.t
+	desc = HAUREP.101.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.101"}
+	is_triggered_only = yes
+	option = {#YES!
+		name = HAUREP.101.a
+	}
+	option = {#Sorry, NRP never stable
+		name = HAUREP.101.b
+	}
+}
+
+country_event = {#Rikard Astler can't control
+	id = HAUREP.102
+	title = HAUREP.102.t
+	desc = HAUREP.102.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.102"}
+	is_triggered_only = yes
+	option = {#No matter the black cat and the white cat, as long as they can be used by me, they are good cats.（REMOVE DENG XIAOPING
+		name = HAUREP.102.a
+	}
+	option = {#Why not independence party?
+		name = HAUREP.102.a
+	}
+}
+
+country_event = {#United NRP - under Astler
+	id = HAUREP.103
+	title = HAUREP.103.t
+	desc = HAUREP.103.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.103"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.103.a
+	}
+}
+
+country_event = {#independence? joking???
+	id = HAUREP.104
+	title = HAUREP.104.t
+	desc = HAUREP.104.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.104"}
+	is_triggered_only = yes
+	option = {#maybe best way
+		name = HAUREP.104.a
+	}
+	option = {#Walter, why not you?
+		name = HAUREP.104.b
+	}
+}
+
+country_event = {#Astler and URP
+	id = HAUREP.105
+	title = HAUREP.105.t
+	desc = HAUREP.105.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.105"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.105.a
+	}
+}
+
+country_event = {#Walter join politics
+	id = HAUREP.106
+	title = HAUREP.106.t
+	desc = HAUREP.106.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.106"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.106.a
+	}
+}
+
+country_event = {#NPJP - Uh, primary election?
+	id = HAUREP.107
+	title = HAUREP.107.t
+	desc = HAUREP.107.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.107"}
+	is_triggered_only = yes
+	option = {#Center again
+		name = HAUREP.107.a
+	}
+	option = {#Right leader
+		name = HAUREP.107.b
+	}
+}
+
+country_event = {#Emergency - People go home
+	id = HAUREP.108
+	title = HAUREP.108.t
+	desc = HAUREP.108.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.108"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.108.a
+	}
+}
+
+country_event = {#Emergency - NPJP support Walter
+	id = HAUREP.109
+	title = HAUREP.109.t
+	desc = HAUREP.109.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.109"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.109.a
+	}
+}
+
+country_event = {#Last of NRP
+	id = HAUREP.110
+	title = HAUREP.110.t
+	desc = HAUREP.110.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.110"}
+	is_triggered_only = yes
+	option = {#working with URP
+		name = HAUREP.110.a
+	}
+	option = {#Keep calm and carry on!
+		name = HAUREP.110.b
+	}
+}
+
+country_event = {#Election coming sooooooooooon
+	id = HAUREP.111
+	title = HAUREP.111.t
+	desc = HAUREP.111.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.111"}
+	is_triggered_only = yes
+	option = {#Watch the left
+		name = HAUREP.111.a
+	}
+	option = {#true to democracy!
+		name = HAUREP.111.b
+	}
+	option = {#Watch the right
+		name = HAUREP.111.c
+	}
+}
+
+country_event = {#Election after Walter
+	id = HAUREP.112
+	title = HAUREP.112.t
+	desc = HAUREP.112.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.112"}
+	is_triggered_only = yes
+	option = {#Astler and NRP
+		name = HAUREP.112.a
+	}
+	option = {#Astler and URP
+		name = HAUREP.112.b
+	}
+	option = {#Walter!Yes!
+		name = HAUREP.112.c
+	}
+	option = {#Andrea Di Marea!
+		name = HAUREP.112.e
+	}
+	option = {#Nord Brillant!
+		name = HAUREP.112.f
+	}
+}
+
+country_event = {#President Resign
+	id = HAUREP.113
+	title = HAUREP.113.t
+	desc = HAUREP.113.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.113"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.113.a
+	}
+}
+
+country_event = {#Last of NRP members took over temporarily
+	id = HAUREP.114
+	title = HAUREP.114.t
+	desc = HAUREP.114.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.114"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.114.a
+	}
+}
+
+country_event = {#Vice-president...wait , we have no fucking vice-president!
+	id = HAUREP.115
+	title = HAUREP.115.t
+	desc = HAUREP.115.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.115"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.115.a
+	}
+}
+
+country_event = {#Senate...shit...maybe wehave to snap election
+	id = HAUREP.116
+	title = HAUREP.116.t
+	desc = HAUREP.116.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.116"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.116.a
+	}
+}
+
+country_event = {#NRP-L appreciate the President's resignation
+	id = HAUREP.117
+	title = HAUREP.117.t
+	desc = HAUREP.117.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.117"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.117.a
+	}
+}
+
+country_event = {#NRP-centrist reiterated constitutional supremacy
+	id = HAUREP.118
+	title = HAUREP.118.t
+	desc = HAUREP.118.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.118"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.118.a
+	}
+}
+
+country_event = {#NPJP denounces "Golden Decade"
+	id = HAUREP.119
+	title = HAUREP.119.t
+	desc = HAUREP.119.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.119"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.119.a
+	}
+}
+
+country_event = {#NPJP-centrist called attention to the practical problems
+	id = HAUREP.120
+	title = HAUREP.120.t
+	desc = HAUREP.120.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.120"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.120.a
+	}
+}
+
+country_event = {#NRP Primary election - without prepare
+	id = HAUREP.121
+	title = HAUREP.121.t
+	desc = HAUREP.121.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.121"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.121.a
+	}
+}
+
+country_event = {#Winterhold's bribery!
+	id = HAUREP.122
+	title = HAUREP.122.t
+	desc = HAUREP.122.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.122"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.122.a
+	}
+}
+
+country_event = {#Bribery...well, NRP's primary election still have to countinue
+	id = HAUREP.123
+	title = HAUREP.123.t
+	desc = HAUREP.123.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.123"}
+	is_triggered_only = yes
+	option = {#Rikard Astler maintained support within the party
+		name = HAUREP.123.a
+		set_country_flag = Rikard_Astler_Won_Primary_Election
+	}
+	option = {#Countinue our way which started in ALB978 with comrade Schneider!
+		name = HAUREP.123.b
+		set_country_flag = Egon_Schneider_Won_Primary_Election
+	}
+	option = {#Pragmatic first! Create a new Golden Decade! Come on with Frühlingswind Miekle! 
+		name = HAUREP.123.c
+		set_country_flag = Fruhlingswind_Miekle_Won_Primary_Election
+	}
+}
+
+country_event = {#NPJP's Primary election - ah politics
+	id = HAUREP.124
+	title = HAUREP.124.t
+	desc = HAUREP.124.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.124"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.124.a
+	}
+}
+
+country_event = {#NPJP Heated debate
+	id = HAUREP.125
+	title = HAUREP.125.t
+	desc = HAUREP.125.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.125"}
+	is_triggered_only = yes
+	option = {#Centrist take side with Rights
+		name = HAUREP.125.a
+		set_country_flag = Centrist_NPJP_with_Rights
+	}
+	option = {#Centrist chose neutrality
+		name = HAUREP.125.b
+	}
+}
+
+country_event = {#NPJP Primary election - The winner
+	id = HAUREP.126
+	title = HAUREP.126.t
+	desc = HAUREP.126.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.126"}
+	is_triggered_only = yes
+	option = {#Nord Brillant!
+		name = HAUREP.126.a
+		trigger = {
+			has_country_flag = Centrist_NPJP_with_Rights
+		}
+	}
+	option = {#Andrea Di Marea!
+		name = HAUREP.126.b
+	}
+	option = {#Walter Emrich's son take position!
+		name = HAUREP.126.c
+		trigger = {
+			NOT = {
+				has_country_flag = Centrist_NPJP_with_Rights
+			}
+		}
+	}
+}
+
+country_event = {#Astler criticize Brillant : Turning the Republic into the cruel Empire in 1021?
+	id = HAUREP.127
+	title = HAUREP.127.t
+	desc = HAUREP.127.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.127"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.127.a
+	}
+}
+
+country_event = {#Astler criticize Di Marea : What could he do? Let the budget of the Presidential Palace triple?
+	id = HAUREP.128
+	title = HAUREP.128.t
+	desc = HAUREP.128.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.128"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.128.a
+	}
+}
+
+country_event = {#Astler talk about Emrich : I hope he will never forget the flag which his father always fighting for!
+	id = HAUREP.129
+	title = HAUREP.129.t
+	desc = HAUREP.129.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.129"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.129.a
+	}
+}
+
+country_event = {#Schneider criticize Brillant : Second Kingfeather!
+	id = HAUREP.130
+	title = HAUREP.130.t
+	desc = HAUREP.130.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.130"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.130.a
+	}
+}
+
+country_event = {#Schneider criticize Di Marea : Corrupt as Meyer!
+	id = HAUREP.131
+	title = HAUREP.131.t
+	desc = HAUREP.131.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.131"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.131.a
+	}
+}
+
+country_event = {#Schneider talk about Emrich : I'm glad to work together with Emrich, but how does he work with people who want to return age of the Empire?
+	id = HAUREP.132
+	title = HAUREP.132.t
+	desc = HAUREP.132.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.132"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.132.a
+	}
+}
+
+country_event = {#Miekle criticize Brillant : It means the death of Republic, we must reject any madness like this!
+	id = HAUREP.133
+	title = HAUREP.133.t
+	desc = HAUREP.133.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.133"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.133.a
+	}
+}
+
+country_event = {#Brillant criticize Astler : Funded by foreign forces!
+	id = HAUREP.134
+	title = HAUREP.134.t
+	desc = HAUREP.134.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.134"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.134.a
+	}
+}
+
+country_event = {#Brillant criticize Schneider : SocDems? Who elect you?
+	id = HAUREP.135
+	title = HAUREP.135.t
+	desc = HAUREP.135.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.135"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.135.a
+	}
+}
+
+country_event = {#Brillant criticize Miekle : Another Golden Decade? The Republic will die for it!
+	id = HAUREP.136
+	title = HAUREP.136.t
+	desc = HAUREP.136.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.136"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.136.a
+	}
+}
+
+country_event = {#Di Marea criticize Astler : You said you are a member of NRP? Okay, it's funny.
+	id = HAUREP.137
+	title = HAUREP.137.t
+	desc = HAUREP.137.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.137"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.137.a
+	}
+}
+
+country_event = {#Di Marea criticize Schneider : Old antiques...
+	id = HAUREP.138
+	title = HAUREP.138.t
+	desc = HAUREP.138.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.138"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.138.a
+	}
+}
+
+country_event = {#Di Marea criticize Miekle : Golden Decade? Corrupt Decade!
+	id = HAUREP.139
+	title = HAUREP.139.t
+	desc = HAUREP.139.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.139"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.139.a
+	}
+}
+
+country_event = {#Emrich counters Astler : I always remember it: For the springtime of the Republic!
+	id = HAUREP.140
+	title = HAUREP.140.t
+	desc = HAUREP.140.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.140"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.140.a
+	}
+}
+
+country_event = {#Emrich talk about Schneider : Many contradictions in NPJP? Yes, but we will break through the obstacles and realize the dream of republican!
+	id = HAUREP.141
+	title = HAUREP.141.t
+	desc = HAUREP.141.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.141"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.141.a
+	}
+}
+
+country_event = {#Election day
+	id = HAUREP.142
+	title = HAUREP.142.t
+	desc = HAUREP.142.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.142"}
+	is_triggered_only = yes
+	option = {#Astler won!
+		name = HAUREP.142.a
+	}
+	option = {#Schneider won!
+		name = HAUREP.142.b
+	}
+	option = {#New Golden Decade!
+		name = HAUREP.142.c
+	}
+	option = {#Emrich! Emrich now!
+		name = HAUREP.142.e
+	}
+	option = {#Di Marea won!
+		name = HAUREP.142.f
+	}
+	option = {#Brillant won!
+		name = HAUREP.142.g
+	}
+}
+
+country_event = {#Astler is the winner
+	id = HAUREP.143
+	title = HAUREP.143.t
+	desc = HAUREP.143.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.143"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.143.a
+	}
+}
+
+country_event = {#Schneider is the winner
+	id = HAUREP.144
+	title = HAUREP.144.t
+	desc = HAUREP.144.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.144"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.144.a
+	}
+}
+
+country_event = {#Miekle is the winner
+	id = HAUREP.145
+	title = HAUREP.145.t
+	desc = HAUREP.145.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.145"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.145.a
+	}
+}
+
+country_event = {#Emrich is the winner
+	id = HAUREP.146
+	title = HAUREP.146.t
+	desc = HAUREP.146.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.146"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.146.a
+	}
+}
+
+country_event = {#Di Marea is the winner
+	id = HAUREP.147
+	title = HAUREP.147.t
+	desc = HAUREP.147.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.147"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.147.a
+	}
+}
+
+country_event = {#Brillant is the winner
+	id = HAUREP.148
+	title = HAUREP.148.t
+	desc = HAUREP.148.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.148"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.148.a
+	}
+}
+
+country_event = {#
+	id = HAUREP.149
+	title = HAUREP.149.t
+	desc = HAUREP.149.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.149"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.149.a
+	}
+}
+
+country_event = {
+	id = HAUREP.150
+	title = HAUREP.150.t
+	desc = HAUREP.150.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.150"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.150.a
+	}
+}
+
+country_event = {
+	id = HAUREP.151
+	title = HAUREP.151.t
+	desc = HAUREP.151.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.151"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.151.a
+	}
+}
+
+country_event = {
+	id = HAUREP.152
+	title = HAUREP.152.t
+	desc = HAUREP.152.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.152"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.152.a
+	}
+}
+
+country_event = {
+	id = HAUREP.153
+	title = HAUREP.153.t
+	desc = HAUREP.153.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.153"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.153.a
+	}
+}
+
+country_event = {
+	id = HAUREP.154
+	title = HAUREP.154.t
+	desc = HAUREP.154.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.154"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.154.a
+	}
+}
+
+country_event = {
+	id = HAUREP.155
+	title = HAUREP.155.t
+	desc = HAUREP.155.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.155"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.155.a
+	}
+}
+
+country_event = {
+	id = HAUREP.156
+	title = HAUREP.156.t
+	desc = HAUREP.156.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.156"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.156.a
+	}
+}
+
+country_event = {
+	id = HAUREP.157
+	title = HAUREP.157.t
+	desc = HAUREP.157.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.157"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.157.a
+	}
+}
+
+country_event = {
+	id = HAUREP.158
+	title = HAUREP.158.t
+	desc = HAUREP.158.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event HAUREP.158"}
+	is_triggered_only = yes
+	option = {
+		name = HAUREP.158.a
+	}
+}
+
+
+
+
