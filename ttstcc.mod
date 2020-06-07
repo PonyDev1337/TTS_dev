@@ -1,5 +1,5 @@
 name="The Twilight Struggle: The Crystal Curtain"
-path="mod/ttstcc/"
+path="mod/TTS_dev"
 replace_path="common/ai_equipment"
 replace_path="common/ai_focuses"
 replace_path="common/ai_peace"

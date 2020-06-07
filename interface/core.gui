@@ -267,6 +267,8 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
+		
+
 		decreaseButton = {
 			name = "Decrease"
 			quadTextureSprite = "GFX_scroll_up"
