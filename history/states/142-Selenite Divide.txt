@@ -1,0 +1,25 @@
+
+state={
+	id=142
+	name="STATE_142"
+	resources={
+		crystals=11.000
+	}
+
+	history={
+		owner = CRY
+		add_core_of = CRY
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		83 95 3053 6139 6324 9319 11072 11097 11139 11392 
+	}
+	manpower=333840
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

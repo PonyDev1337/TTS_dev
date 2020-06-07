@@ -1,0 +1,124 @@
+	SpriteType = {
+		name = "GFX_goal_HAU_Armed_Against_White_Army"
+		texturefile = "gfx/interface/goals/goal_HAU_Armed_Against_White_Army.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Awake_Comrades"
+		texturefile = "gfx/interface/goals/goal_HAU_Awake_Comrades.dds"
+	SpriteType = {
+		name = "GFX_goal_HAU_Choose_Target"
+		texturefile = "gfx/interface/goals/goal_HAU_Choose_Target.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Constitution_has_been_Established"
+		texturefile = "gfx/interface/goals/goal_HAU_Constitution_has_been_Established.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Currency_Reform"
+		texturefile = "gfx/interface/goals/goal_goal_HAU_Currency_Reform.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_goal_HAU_Currency_Reform"
+		texturefile = "gfx/interface/goals/goal_goal_HAU_Currency_Reform.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Democracy_is_a_Basic_Civil_Rights"
+		texturefile = "gfx/interface/goals/goal_HAU_Democracy_is_a_Basic_Civil_Rights.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Economic_Soar"
+		texturefile = "gfx/interface/goals/goal_HAU_Economic_Soar.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Focus_on_Economy"
+		texturefile = "gfx/interface/goals/goal_HAU_Focus_on_Economy.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Heart_of_Republican"
+		texturefile = "gfx/interface/goals/goal_HAU_Heart_of_Republican.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Its_a_Long_Way_to_Home"
+		texturefile = "gfx/interface/goals/goal_HAU_Its_a_Long_Way_to_Home.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Liberty"
+		texturefile = "gfx/interface/goals/goal_HAU_Liberty.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Maintain_Gold_Standard"
+		texturefile = "gfx/interface/goals/goal_HAU_Maintain_Gold_Standard.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Memories_of_Students_Movement"
+		texturefile = "gfx/interface/goals/goal_HAU_Memories_of_Students_Movement.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Military_Rule_has_Gone"
+		texturefile = "gfx/interface/goals/goal_HAU_Military_Rule_has_Gone.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_NRPL_New_Reform"
+		texturefile = "gfx/interface/goals/goal_HAU_NRPL_New_Reform.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Petroleum_Technology_Update"
+		texturefile = "gfx/interface/goals/goal_HAU_Petroleum_Technology_Update.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_political_tutelage"
+		texturefile = "gfx/interface/goals/goal_HAU_political_tutelage.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Political_Tutelage_hasbeen_Done"
+		texturefile = "gfx/interface/goals/goal_HAU_Political_Tutelage_hasbeen_Done.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Project_1032_of_Development"
+		texturefile = "gfx/interface/goals/goal_HAU_Project_1032_of_Development.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Project_The_National_Glory"
+		texturefile = "gfx/interface/goals/goal_HAU_Project_The_National_Glory.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Prosperity"
+		texturefile = "gfx/interface/goals/goal_HAU_Prosperity.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Public_Infrastructure_Construction.dds"
+		texturefile = "gfx/interface/goals/goal_HAU_Public_Infrastructure_Construction.dds.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Republicans_Never_Fear"
+		texturefile = "gfx/interface/goals/goal_HAU_Republicans_Never_Fear.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Rubber_Technology_Update"
+		texturefile = "gfx/interface/goals/goal_HAU_Rubber_Technology_Update.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Secret_Aggregation"
+		texturefile = "gfx/interface/goals/goal_HAU_Secret_Aggregation.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Stay_Principles_Forever"
+		texturefile = "gfx/interface/goals/goal_HAU_Stay_Principles_Forever.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Strategizing"
+		texturefile = "gfx/interface/goals/goal_HAU_Strategizing.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_Sunglider_Dream"
+		texturefile = "gfx/interface/goals/goal_HAU_Sunglider_Dream.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_The_End_of_Gold_Standard"
+		texturefile = "gfx/interface/goals/goal_HAU_The_End_of_Gold_Standard.dds"
+	}
+	SpriteType = {
+		name = "GFX_goal_HAU_What_We_Fighting_For"
+		texturefile = "gfx/interface/goals/goal_HAU_What_We_Fighting_For.dds"
+	}
+}

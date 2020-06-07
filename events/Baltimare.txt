@@ -1,0 +1,159 @@
+add_namespace = baltimare
+
+
+news_event = { ## first baltimare secession news event
+	id = baltimare.1
+	title = baltimare.1.t
+	desc = baltimare.1.d
+	immediate = {log = "[GetDateText]: [Root.GetName]: event baltimare.1"}
+	is_triggered_only = yes
+	option = {
+		name = baltimare.1.a
+		country_event = {
+			id = baltimare.2
+			days = 10
+		}
+	}
+}
+
+news_event = { ## second baltimare secession new event
+	id = baltimare.2
+	title = baltimare.2.t
+	desc = baltimare.2.d
+    is_triggered_only = yes
+    option = {
+        name = baltimare.2.a
+		country_event = {
+			id = baltimare.3
+			days = 5
+		}
+    }
+}
+
+news_event = { ## third baltimare secession new event
+	id = baltimare.3
+	title = baltimare.3.t
+	desc = baltimare.3.d
+	is_triggered_only = yes
+    option = {
+        name = baltimare.3.a
+		country_event = {
+			id = baltimare.4
+			days = 3
+		}
+    }
+}
+
+news_event = { ## second baltimare secession new event
+	id = baltimare.4
+	title = baltimare.4.t
+	desc = baltimare.4.d
+    is_triggered_only = yes
+    option = {
+        name = baltimare.4.a
+		EBM = {
+			set_politics = {
+				ruling_party = communism
+				elections_allowed = no
+			}
+			set_popularities = {
+				communism = 60
+				fascism = 30
+				democratic = 0
+				neutrality = 10
+			}
+			retire_country_leader = yes
+			create_country_leader = {
+				name = "Baltimare Revolutionary Commission"
+				desc = "The political body set up by members of local socialist parties to open diplomatic relations with Stalliongrad and regain control of Baltimare post revolution."
+				picture = "peoplesparliament.tga"
+				expire = "1965.1.1"
+				ideology = vasilyism
+				traits = {
+				}
+			}
+			hidden_effect = {
+				EQS = {
+					end_puppet = EBM
+					remove_from_faction = EBM
+				}
+				EBM = {
+					drop_cosmetic_tag = yes
+				}
+			}
+		}	
+    }
+}
+
+# Focus one triggered events
+country_event = {
+	id = baltimare.5
+	title = baltimare.5.t
+	desc = baltimare.5.d
+	is_triggered_only = yes
+	option = {
+		name = baltimare.5.a
+		country_event = baltimare.6
+	}
+	option = {
+		name = baltimare.5.b
+		country_event = baltimare.6
+	}
+	option = {
+		name = baltimare.5.c
+		country_event = baltimare.6
+	}
+}
+
+country_event = {
+	id = baltimare.6
+	title = baltimare.6.t
+	desc = baltimare.6.d
+	is_triggered_only = yes
+	option = {
+		name = baltimare.6.a
+		country_event = {
+			id = baltimare.7
+			days = 5
+		}
+	}
+	option = {
+		name = baltimare.6.bSSSS
+		country_event = {
+			id = baltimare.7
+			days = 5
+		}
+	}
+}
+
+country_event = {
+	id = baltimare.7
+	title = baltimare.7.t
+	desc = baltimare.7.d
+	is_triggered_only = yes
+	option = {
+		name = baltimare.7.a
+		country_event = {
+			id = baltimare.8
+			days = 30
+		}
+	}
+}
+
+country_event = {
+	id = baltimare.8
+	title = baltimare.8.t
+	desc = baltimare.8.d
+	is_triggered_only = yes
+	option = {
+		name = baltimare.8.a
+	}
+	option = {
+		name = baltimare.8.b
+	}
+	option = {
+		name = baltimare.8.c
+	}
+}
+
+
