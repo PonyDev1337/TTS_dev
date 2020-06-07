@@ -6,8 +6,40 @@ on_actions = {
 			log = "[GetDateText] The Twilight Struggle: Crystal Curtain main on_startup begin"
 			set_variable = { global.defcon_level = 5 }
 			set_variable = { dc_progress = 0 }
+<<<<<<< HEAD
 			set_variable = { ETH.mango_per_month = 10 }
 			
+=======
+			set_variable = { EQS.weekly_ip = 3 }
+			set_variable = { GRI.weekly_ip = 2 }
+			set_variable = { STG.weekly_ip = 1 }
+			every_country = {
+				if = {
+					limit = {
+						is_in_faction_with = EQS
+					}
+					set_variable = {THIS.CTOI = 20}
+				}
+				if = {
+					limit = {
+						is_in_faction_with = STG
+					}
+					set_variable = {THIS.InternationaleI = 20}
+				}
+				if = {
+					limit = {
+						is_in_faction_with = GRI
+					}
+					set_variable = {THIS.ReichspaktI = 20}
+				}
+				if = {
+					limit = {
+						tag = RCT
+					}
+					set_variable = {THIS.CTOI = 5}
+				}
+			}
+>>>>>>> Left-version-of-ROC---Tek
 
 			#SOL is used here as a random country selector
 			#Thanks to Delincious from KR team for the idea <3

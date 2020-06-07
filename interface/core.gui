@@ -267,8 +267,11 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
+<<<<<<< HEAD
 		
 
+=======
+>>>>>>> Left-version-of-ROC---Tek
 		decreaseButton = {
 			name = "Decrease"
 			quadTextureSprite = "GFX_scroll_up"
