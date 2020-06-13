@@ -1,4 +1,23 @@
 ﻿l_english:
+# EBM ideas
+ebm_worker_strikes:0 "Worker Strikes"
+ebm_worker_strikes_desc:0 "Growing socialist sentiment and anger has lead to strikes on an almost weekly basis, greatly impacting Baltimare's industrial capacity."
+ineffective_government_ebm:0 "Ineffective Local Government"
+ineffective_government_ebm_desc:0 "The Mayor's office has been unable to meet the demands of Baltimare's growing socialist prescense. Baltimare's government has been unable to stem the recent strikes and has shown itself to be unable to solve problems."
+thestral_nationalism_ebm:0 "Thestralian Nationalism"
+thestral_nationalism_ebm_desc:0 "Frings elements of the BSS and at times Midnight Star herself support a small but growing movement aimed at encouraging the local thestralian miniorities to gain power and a dominant position in the state by force."
+workers_front_ebm:0 "United Workers Front"
+workers_front_ebm_desc:0 "The BSU and the BSS have begun to put their differences aside and are now joining forces in the most recent protests agains the local government."
+
+#EBM BRC ideas
+ebm_provisional_government:0 "BRC Provisional Government"
+ebm_provisional_government_desc:0 "The BRC while succeding in the worker's revolution is still in its infancy. Rising tensions between the DC and BSS make every choice the government makes critical as if tensions grow to high, civil war could ensue."
+BSS_DC_rivalry:0 "BSS and BSU Rivalry"
+BSS_DC_rivalry_desc:0 "Midnight Star's BSS and Sky's BSU are once again in conflict after the success of the revolution. Sky wants to keep Baltimare peaceful and open, while Star's more nationalistic tendiencies have sprung up post uprising. If pushed far, Star my take up arms to get her way."
+ebm_revolutionary_fervor:0 "Revolutionary Fervor"
+ebm_revolutionary_fervor_desc:0 "The workers of Baltimare seeing the success of their relatively peaceful revolution and empowered by Stalliongradian support look to neighboring countires to spread their ideals."
+
+
  primitive_economy:0 "Primitive Economy"
  outlaw_economy:0 "Criminal Economy"
  disrupted_communications:0 "Disrupted Communications"

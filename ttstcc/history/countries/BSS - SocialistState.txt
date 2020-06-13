@@ -1,0 +1,27 @@
+captial = 13011
+
+set_popularities = {
+    fascism = 100
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_party_name = {
+	ideology = fascism
+	long_name = EBM_state_rev_long
+	name = EBM_state_rev
+	description = EBM_state_rev_desc
+}
+
+create_country_leader = {
+    name = "Midnight Star"
+    desc = POLITICS_STAR_DESC
+    ideology = fascism
+    traits = {
+    }
+}

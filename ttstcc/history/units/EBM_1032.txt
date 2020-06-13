@@ -1,0 +1,94 @@
+division_template = {
+    name = "Onhooves Division"
+    division_names_group = EBM_INF_01
+    regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 0 y = 3 }
+	}
+
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Garrison Regiment"			
+	division_names_group = EBM_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+	}
+	priority = 0
+}
+
+units = {
+	division = {
+		location = 963
+		division_template = "Garrison Regiment"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 13011
+		division_template = "Garrison Regiment"
+		start_experience_factor = 0.7
+		start_equipment_factor = 0.8
+	}
+	division = {
+		location = 11502
+		division_template = "Onhooves Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 9784
+		division_template = "Onhooves Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	division = {
+		location = 5511
+		division_template = "Onhooves Division"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+}
+
+instant_effect = {
+    add_equipment_production = {
+        equipment = {
+			type = infantry_equipment_1
+			creator = "EBM"
+		}
+        requested_factories = 2
+        progress = 0.8
+        efficiency = 90
+    }
+    add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "EBM" 
+        }
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 80
+	}
+    add_equipment_production = {
+        equipment = {
+            type = artillery_equipment_1
+            creator = "EBM"
+        }
+        requested_factories = 1
+        progress = 0.6
+        efficiency = 70
+    }
+}
