@@ -9,8 +9,15 @@ state={
 	history={
 		owner = EBM
 		add_core_of = EBM
+		buildings = {
+			infrastructure = 7
+			arms_factory = 3
+			industrial_complex = 2
+		}
 
 	}
+
+	
 
 	provinces={
 		563 3423 3506 3533 3669 6583 9559 9575 11407 11502 11531 11547

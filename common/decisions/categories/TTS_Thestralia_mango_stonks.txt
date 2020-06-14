@@ -1,0 +1,9 @@
+mango_decisions = {
+	icon = GFX_mango_icon
+	allowed = {
+ 		tag = ETH 
+	}
+	visible = {
+		tag = ETH 
+	}
+}
