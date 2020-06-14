@@ -1,4 +1,30 @@
 ﻿l_english:
+ #################
+ #####PARTIES######
+ #################
+
+ HAU_neutrality_party:0 "NRP - KJC"
+ HAU_communism_party:0 "NRP - L"
+ HAU_democratic_party:0 "NPJP - C&L"
+ HAU_fascism_party:0 "NPJP - R"
+ HAU_reformism_party:0 "NRP - C"
+ HAU_alt_left_party:0 "B.B."
+ HAU_neutrality_party_long:0 "National Republican Party - Kemerskai Jr.'s Clique"
+ HAU_communism_party_long:0 "National Republican Party - Left Wing"
+ HAU_democratic_party_long:0 "National Progress and Justice Party - Centre Wing & Left Wing"
+ HAU_fascism_party_long:0 "National Progress and Justice Party - Right Wing"
+ HAU_reformism_party_long:0 "National Republican Party - Centre Wing"
+ HAU_alt_left_party_long:0 "BIG BROTHER IS WATCHING YOU"
+
+
+
+
+
+
+
+
+
+
  ####################################
  ####FAKE FOCUS FOR KEMERSKAI JR.####
  ####################################
