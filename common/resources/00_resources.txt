@@ -41,81 +41,43 @@ resources = {
 		cic = 0.125
 		convoys = 0.1
 	}
-
-	coal = {
+	electricity = {
 		icon_frame = 8
 		cic = 0.125
 		convoys = 0.1
 	}
-
 	uranium = {
 		icon_frame = 9
 		cic = 0.125
 		convoys = 0.1
 	}
-
 	silicon = {
 		icon_frame = 10
 		cic = 0.125
 		convoys = 0.1
 	}
-
 	plastic = {
 		icon_frame = 11
 		cic = 0.125
 		convoys = 0.1
 	}
-
-	chemical_reagents = {
+	fuel = {
 		icon_frame = 12
 		cic = 0.125
 		convoys = 0.1
 	}
-
 	rhenium = {
 		icon_frame = 13
 		cic = 0.125
 		convoys = 0.1
 	}
-
 	electrificated_rhencrystals = {
 		icon_frame = 14
 		cic = 0.125
 		convoys = 0.1
 	}
-
-	heavy_machinery = {
-		icon_frame = 16
-		cic = 0.125
-		convoys = 0.1
-	}
-
-	light_machinery = {
-		icon_frame = 17
-		cic = 0.125
-		convoys = 0.1
-	}
-
-	precision_machinery = {
-		icon_frame = 18
-		cic = 0.125
-		convoys = 0.1
-	}
-
 	electronics = {
 		icon_frame = 15
-		cic = 0.125
-		convoys = 0.1
-	}
-
-	building_materials = {
-		icon_frame = 19
-		cic = 0.125
-		convoys = 0.1
-	}
-
-	dark_crystals = {
-		icon_frame = 20
 		cic = 0.125
 		convoys = 0.1
 	}

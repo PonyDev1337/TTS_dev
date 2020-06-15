@@ -1,0 +1,6 @@
+add_mango = {
+	add_to_variable = {
+		var = mango_amount
+    	value = mango_per_month
+	}
+}

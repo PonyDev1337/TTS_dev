@@ -4,9 +4,11 @@ on_actions = {
 	on_startup = {
 		effect = {
 			log = "[GetDateText] The Twilight Struggle: Crystal Curtain main on_startup begin"
-			set_variable = { global.defcon_level = 5 }
-				
-			}
+			
+
+			set_variable = { ETH.mango_per_month = 10 }
+			
+
 
 			#SOL is used here as a random country selector
 			#Thanks to Delincious from KR team for the idea <3
@@ -22,15 +24,6 @@ on_actions = {
 				}
 			}
 			
-			EQS = {
-				save_global_event_target_as = equestria
-			}
-			STG = {
-			}
-			SOL = { save_global_event_target_as = solar_empire }
-			GRI = {
-				save_global_event_target_as = griffonian_empire
-			}		
 			every_country = {
 			if = {
 					limit = { is_pony_race = yes }
@@ -2348,21 +2341,516 @@ on_actions = {
 	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
 	on_state_control_changed = {
 		effect = {
-			
+			if = {
+				limit = {
+					FROM.FROM = { state = 344 }
+					original_tag = CRY
+					has_government = democratic
+					NOT = { has_idea = crystal_heart }
+				}
+				add_ideas = crystal_heart
+			}
+			if = {
+				limit = {
+					FROM.FROM = { state = 381 }
+					NOT = { has_idea = owns_skyfall }
+					OR = { NOT = { num_of_civilian_factories > 50 } NOT = { num_of_military_factories > 25 } }
+				}
+				add_ideas = owns_skyfall
+				break = yes
+			}
+
+			#Liberation stuff
+			if = {
+				limit = {
+					FROM = { tag = CHN }
+					original_tag = EQS
+					has_war_with = FROM
+					FROM.FROM = { owner = { original_tag = EQS } }
+				}
+				if = {
+					limit = {
+						FROM.FROM = {
+							NOT = { has_state_flag =  state_taken_chn_timeout }
+						}
+					}
+					if = {#Acornage
+						limit = {
+							FROM.FROM = { state = 136 }
+						}
+						news_event = { id = cityfall.22 }
+					}
+					if = {#Tall Tales
+						limit = {
+							FROM.FROM = { state = 59 }
+						}
+						news_event = { id = cityfall.23 }
+					}
+					if = {#Vanhoover
+						limit = {
+							FROM.FROM = { state = 14 }
+						}
+						news_event = { id = cityfall.24 }
+					}
+				}
+				FROM.FROM = {
+					clr_state_flag =  state_taken_chn_timeout
+				}
+				break = yes
+			}
+
+			if = {
+				limit = {
+					has_war_with = FROM
+					FROM = {
+						NOT = { original_tag = ROOT }
+					}
+					FROM.FROM = {
+						is_owned_by = FROM
+						NOT = { has_state_flag = state_has_fallen }
+					}
+				}
+				if = {
+					limit = {
+						tag = YAK
+						FROM = { tag = JAK }
+						FROM.FROM = { state = 274 }
+					}
+					country_event = yakistan.29
+					break = yes
+				}
+				if = {
+					limit = { tag = CHN }
+					if = {
+						limit = { FROM = { original_tag = OLE } }
+						if = {#Vaverfront
+							limit = {
+								NOT = { has_global_flag = fall_of_vaverfront_CHN }
+								FROM.FROM = { state = 69 }
+							}
+							news_event = { id = cityfall.1 }
+							break = yes
+						}
+						if = {#Hjortland
+							limit = {
+								NOT = { has_global_flag = fall_of_hjortland_CHN }
+								FROM.FROM = { state = 76 }
+							}
+							news_event = { id = cityfall.2 }
+							break = yes
+						}
+						if = {#Cervus
+							limit = {
+								NOT = { has_global_flag = fall_of_cervus_CHN }
+								FROM.FROM = { state = 191 }
+							}
+							news_event = { id = cityfall.3 }
+							break = yes
+						}
+						if = {#Sakara
+							limit = {
+								NOT = { has_global_flag = fall_of_sakara_CHN }
+								FROM.FROM = { state = 194 }
+							}
+							news_event = { id = cityfall.4 }
+							break = yes
+						}
+						break = yes
+					}
+					if = {
+						limit = { FROM = { original_tag = EQS } }
+						if = {#Shire
+							limit = {
+								NOT = { has_global_flag = fall_of_shire_chn }
+								FROM.FROM = { state = 132 }
+							}
+							news_event = { id = cityfall.7 }
+							break = yes
+						}
+						if = {#Los Pegasus
+							limit = {
+								NOT = { has_global_flag = fall_of_lospegasus_chn }
+								FROM.FROM = { state = 66 }
+							}
+							news_event = { id = cityfall.8 }
+							break = yes
+						}
+						if = {#Vanhoover
+							limit = {
+								FROM.FROM = { state = 14 }
+							}
+							FROM.FROM = {
+								set_state_flag = { flag = state_taken_chn_timeout value = 1 days = 60 }
+							}
+							if = {
+								limit = { NOT = { has_global_flag = fall_of_vanhoover_chn } }
+								news_event = { id = cityfall.13 }
+							}
+							break = yes
+						}
+						if = {#Tall Tales
+							limit = {
+								FROM.FROM = { state = 59 }
+							}
+							FROM.FROM = {
+								set_state_flag = { flag = state_taken_chn_timeout value = 1 days = 60 }
+							}
+							if = {
+								limit = { NOT = { has_global_flag = fall_of_tall_tales_chn } }
+								news_event = { id = cityfall.19 }
+							}
+							break = yes
+						}
+						if = {#Acornage
+							limit = {
+								FROM.FROM = { state = 136 }
+							}
+							FROM.FROM = {
+								set_state_flag = { flag = state_taken_chn_timeout value = 1 days = 60 }
+							}
+							if = {
+								limit = { NOT = { has_global_flag = acornage_taken_chn } }
+								FROM = { news_event = { id = cityfall.21 } }
+							}
+							break = yes
+						}
+						if = {#Baltimare
+							limit = {
+								NOT = { has_global_flag = fall_of_baltimare_chn }
+								FROM.FROM = { state = 13 }
+							}
+							news_event = { id = cityfall.20 }
+							break = yes
+						}
+					}
+					if = {
+						limit = { FROM = { original_tag = CRY } }
+						if = {#Crystal City
+							limit = {
+								NOT = { has_global_flag = fall_of_crystal_chn }
+								FROM.FROM = { state = 344 }
+							}
+							news_event = { id = cityfall.15 }
+							break = yes
+						}
+					}
+				}
+				if = {#Manehattan
+					limit = {
+						FROM.FROM = { state = 75 }
+					}
+					if = {
+						limit = {
+							FROM = { OR = { original_tag = EQS original_tag = NLR } }
+							tag = CHN
+							NOT = { has_global_flag = fall_of_manehattan_chn }
+						}
+						news_event = { id = cityfall.9 }
+						break = yes
+					}
+					if = {
+						limit = {
+							FROM = { original_tag = NLR }
+							original_tag = EQS
+							NOT = { has_global_flag = fall_of_manehattan_eqs }
+						}
+						news_event = { id = cityfall.18 }
+						break = yes
+					}
+				}
+				if = {#Canterlot
+					limit = {
+						FROM.FROM = { state = 3 }
+						FROM = { original_tag = EQS }
+					}
+					if = {
+						limit = {
+							tag = NLR
+							NOT = { has_global_flag = fall_of_canterlot_nlr }
+						}
+						news_event = { id = cityfall.10 }
+						break = yes
+					}
+					if = {
+						limit = {
+							tag = STG
+							NOT = { has_global_flag = fall_of_canterlot_stg }
+						}
+						news_event = { id = cityfall.12 }
+						break = yes
+					}
+					if = {
+						limit = {
+							tag = CHN
+							NOT = { has_global_flag = fall_of_canterlot_chn }
+						}
+						news_event = { id = cityfall.14 }
+						break = yes
+					}
+					if = {
+						limit = {
+							original_tag = CRY
+							has_government = fascism
+							has_country_leader = { ruling_only = yes name = "King Sombra" }
+							NOT = { has_global_flag = fall_of_canterlot_cry }
+						}
+						news_event = { id = cityfall.17 }
+						break = yes
+					}
+				}
+				if = {#Stalliongrad
+					limit = {
+						FROM.FROM = { state = 153 }
+						FROM = { tag = STG }
+					}
+					if = {
+						limit = {
+							OR = { original_tag = EQS original_tag = NLR }
+							NOT = { has_global_flag = fall_of_stalliongrad_eqs }
+						}
+						news_event = { id = cityfall.11 }
+						break = yes
+					}
+					if = {
+						limit = {
+							tag = CHN
+							NOT = { has_global_flag = fall_of_stalliongrad_chn }
+						}
+						news_event = { id = cityfall.16 }
+						break = yes
+					}
+				}
+				if = {#River City
+					limit = {
+						FROM.FROM = { state = 619 }
+						NOT = { has_global_flag = fall_of_river_city }
+					}
+					news_event = { id = cityfall.5 }
+					break = yes
+				}
+				if = {#Sunset
+					limit = {
+						FROM.FROM = { state = 356 }
+						NOT = { has_global_flag = fall_of_sunset_city }
+					}
+					news_event = { id = cityfall.6 }
+					break = yes
+				}
+				if = {#Hellquill
+					limit = {
+						FROM = { tag = HLQ }
+						AND = {
+							ROOT = { original_tag = DMT }
+							OR = {
+								ROOT = { has_government = fascism }
+								ROOT = { has_government = communism }
+							}
+						}
+						FROM.FROM = { state = 537 }
+						NOT = { has_global_flag = fall_of_Hellquill_city }
+					}
+					ROOT = {
+						country_event = { id = diamond_mountain.102 }
+					}
+					break = yes
+				}
+				if = {#Vesalipolis
+					limit = {
+						FROM.FROM = { state = 251 }
+						NOT = { has_global_flag = fall_of_vesalipolis }
+					}
+					news_event = cityfall.25
+					break = yes
+				}
+				if = {#Yakistown
+					limit = {
+						FROM.FROM = { state = 11 }
+						NOT = { has_global_flag = fall_of_yakistown }
+					}
+					news_event = cityfall.26
+					break = yes
+				}
+				if = {#Vraks
+					limit = {
+						FROM.FROM = { state = 259 }
+						NOT = { has_global_flag = fall_of_vraks }
+					}
+					news_event = cityfall.27
+					break = yes
+				}
+				if = {#Weter
+					limit = {
+						FROM.FROM = { state = 243 }
+						NOT = { has_global_flag = fall_of_weter }
+					}
+					news_event = cityfall.28
+					break = yes
+				}
+				if = {#Griffenheim
+					limit = {
+						FROM.FROM = { state = 382 }
+						NOT = { has_global_flag = fall_of_griffenheim }
+					}
+					news_event = cityfall.29
+					break = yes
+				}
+				if = {#Griffonstone
+					limit = {
+						FROM.FROM = { state = 389 }
+						NOT = { has_global_flag = fall_of_griffonstone }
+					}
+					news_event = cityfall.30
+					break = yes
+				}
+				if = {#Aquila
+					limit = {
+						ROOT = {
+							is_jer_country = no
+						}
+						FROM.FROM = { state = 377 }
+						NOT = { has_global_flag = fall_of_aquila }
+					}
+					news_event = cityfall.31
+					break = yes
+				}
+				if = {#Karthin
+					limit = {
+						FROM.FROM = { state = 371 }
+						NOT = { has_global_flag = fall_of_karthin }
+					}
+					news_event = cityfall.32
+					break = yes
+				}
+				if = {#Lake City
+					limit = {
+						FROM.FROM = { state = 387 }
+						NOT = { has_global_flag = fall_of_lakecity }
+					}
+					news_event = cityfall.33
+					break = yes
+				}
+				if = {#Skyfall
+					limit = {
+						FROM.FROM = { state = 381 }
+						NOT = { has_global_flag = fall_of_skyfall }
+					}
+					news_event = cityfall.34
+					break = yes
+				}
+				if = {#New Skynavia
+					limit = {
+						FROM.FROM = { state = 522 }
+						NOT = { has_global_flag = fall_of_new_skynavia }
+					}
+					news_event = cityfall.35
+					break = yes
+				}
+				if = {#Cloudbury
+					limit = {
+						FROM.FROM = { state = 485 }
+						NOT = { has_global_flag = fall_of_cloudbury }
+					}
+					news_event = cityfall.36
+					break = yes
+				}
+			}
 		}
 	}
 
 	#FROM is country getting invited.
 	on_offer_join_faction = {
 		effect = {
-			
+			if = {
+				limit = {
+					has_government = communism
+					FROM = {
+						has_idea = LCT_anti_commie_pact
+					}
+				}
+				FROM = {
+					remove_ideas = LCT_anti_commie_pact
+				}
+			}
+			if = {
+				limit = {
+					original_tag = MIT
+					has_completed_focus = MIT_SIC_assistance
+				}
+				FROM = {
+					add_to_tech_sharing_group = MIT_research_group
+				}
+			}
+			if = {
+				limit = {
+					original_tag = MIT
+					has_completed_focus = MIT_command_council
+				}
+				FROM = {
+					add_ideas = MIT_command_council_idea
+				}
+			}
 		}
 	}
 
 	#FROM is faction leader on join faction requests. THIS DOES NOT FIRE ON ADD_TO_FACTION EFFECT! USE ON_OFFER_JOIN_FACTION!
 	on_join_faction = {
 		effect = {
-			
+			if = {
+				limit = {
+					has_idea = LCT_anti_commie_pact
+					FROM = {
+						has_government = communism
+					}
+				}
+				remove_ideas = LCT_anti_commie_pact
+			}
+			if = {
+				limit = {
+					FROM = { is_river_fed_member = yes }
+					NOT = { tag = HLQ }
+					HLQ = { has_idea = HLQ_honourary_member }
+				}
+				diplomatic_relation = {
+					country = HLQ
+					relation = non_aggression_pact
+					active = yes
+				}
+			}
+			if = {
+				limit = {
+					FROM = {
+						original_tag = MIT
+						has_completed_focus = MIT_SIC_assistance
+					}
+				}
+				add_to_tech_sharing_group = MIT_research_group
+			}
+			if = {
+				limit = {
+					NOT = {
+						has_idea = MIT_command_council_idea
+					}
+					FROM = {
+						original_tag = MIT
+						has_completed_focus = MIT_command_council
+						NOT = {
+							has_completed_focus = MIT_coalition_exchange_students
+						}
+					}
+				}
+				add_ideas = MIT_command_council_idea
+			}
+			if = {
+				limit = {
+					NOT = { has_idea = MIT_command_council_idea }
+					NOT = { has_idea = MIT_command_council_idea2 }
+					FROM = {
+						original_tag = MIT
+						has_completed_focus = MIT_coalition_exchange_students
+					}
+				}
+				add_ideas = MIT_command_council_idea2
+			}
 		}
 	}
 
@@ -2371,7 +2859,6 @@ on_actions = {
 		effect = {
 			update_global_arrays = yes
 			adjust_research_modifier = yes
-			heavy_machinery_factory_count = yes
 			daily_fix_weapon_techs = yes
 			set_variable = {dc_progress = global.threat} 
 			multiply_variable = {dc_progress = 100}

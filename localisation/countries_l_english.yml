@@ -15,6 +15,9 @@ EQS_neutrality_ADJ:0 "Equestrian"
 EQS_communism_ADJ:0 "Equestrian"
 EQS_reformism_ADJ:0 "Equestrian"
 
+BSS_fascism:0 "Socialist Front"
+BSS_fascism_DEF:0 "Socialist Front"
+
 EQS_REPUBLIC_reformism:0 "Equestrian Republic"
 EQS_REPUBLIC_reformism_DEF:0 "Equestrian Republic"
 

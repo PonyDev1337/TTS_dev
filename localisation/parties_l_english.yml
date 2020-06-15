@@ -11,11 +11,6 @@
  democratic_noun:0 "Liberal Harmony"
  neutrality:0 "Authoritarian Harmony"
  neutrality_noun:0 "Authoritarian Harmony"
- reformism_drift:0 "Daily Progressive Harmony Support"
- fascism_drift:0 "Daily National Autocracy Support"
- democratic_drift:0 "Daily Liberal Harmony Support"
- alt_left_drift:0 "Daily Alt-Left Support"
- neutrality_drift:0 "Daily Authoritarian Harmony Support"
 
  alicornrule:0 "Alicorn Rule"
  alicornrule_desc:0 "The rule of magical alicorn princesses that have lived for thousands of years. Their wisdom is just as old they are, to stand against them would be a great folly. They command endless respect and adoration from their subjects."
@@ -75,6 +70,7 @@
 
  EBM_socialism_rev:0 "BRC"
  EBM_socialism_rev_long:0 "Baltimare Revolutionary Commission"
+ EBM_socialism_rev_desc:0 "This coalition is formed of both the BSS and the DC who for the moment are working togetehr to bring change to Baltimare."
  
 
  EQS_neutrality_party:0 "TTS"
@@ -359,6 +355,18 @@
  GRY_democratic_party:0 "Viysko Griffonskoe"
  GRY_fascism_party:0 "The Black Council"
 
+ HAU_neutrality_party:0 "NRP - KJC"
+ HAU_communism_party:0 "NRP - L"
+ HAU_democratic_party:0 "NJPP - C&L"
+ HAU_fascism_party:0 "NJPP - R"
+ HAU_reformism_party:0 "NRP - C"
+ HAU_alt_left_party:0 "NRP - RBIS"
+ HAU_neutrality_party_long:0 "National Republican Party - Kemerskai Jr.'s Clique"
+ HAU_communism_party_long:0 "National Republican Party - Left Wing"
+ HAU_democratic_party_long:0 "National Justice and Progress Party - Centre Wing & Left Wing"
+ HAU_fascism_party_long:0 "National Justice and Progress Party - Right Wing"
+ HAU_reformism_party_long:0 "National Republican Party - Centre Wing"
+ HAU_alt_left_party_long:0 "National Republican Party - Republican Bureau of Investigation and Statistics"
 
  HEL_neutrality_party:0 "The Forest Brothers"
  HEL_communism_party:0 "EAP"

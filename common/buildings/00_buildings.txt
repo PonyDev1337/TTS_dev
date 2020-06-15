@@ -155,7 +155,6 @@ buildings = {
 		#max_level = 0 # max: 5
 		max_level = 6 # This is the max unlock level
 		damage_factor = 0.5
-		decrease_population_on_nuke = yes
 		value = 4
 	}
 
@@ -182,32 +181,5 @@ buildings = {
 		local_resources_crystals = -12
 		value = 10
 		infrastructure_construction_effect = yes
-	}
-
-	heavy_machinery_factory = {
-		show_on_map = 1
-		base_cost = 9000
-		base_cost_conversion = 9000
-		general_production = 1
-		icon_frame = 15
-		max_level = 20
-		shares_slots = yes
-		value = 3
-		infrastructure_construction_effect = yes
-		local_resources_heavy_machinery = 1
-		local_resources_crystals = -1
-		local_resources_steel = -2
-	}
-	no_heavy_machinery_factory = {
-		show_on_map = 0
-		base_cost = 900000
-		base_cost_conversion = 900000
-		general_production = 1
-		icon_frame = 20
-		max_level = 999
-		value = 999
-		infrastructure_construction_effect = yes
-		local_resources_heavy_machinery = -1
-		
 	}
 }

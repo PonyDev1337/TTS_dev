@@ -87,4 +87,3 @@ NDefines.NCountry.FEMALE_UNIT_LEADER_BASE_CHANCE = {
     1.0, -- operatives
 }
 NDefines.NCountry.COUNTRY_LEADER_FEMALE_CHANCE = 1.0 -- chance for new country leaders to be female. should be set > 0 only if there are portraits/names for that country
-NDefines.NCountry.EVENT_PROCESS_OFFSET = 10

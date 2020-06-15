@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_mango_icon"
+		texturefile = "gfx/interface/misc_sprites/Special_recources/mango_icon.dds"
+	}
+}

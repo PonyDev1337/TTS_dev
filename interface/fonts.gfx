@@ -17,7 +17,12 @@ bitmapfonts = {
 	}
 	bitmapfont = {
 		name = "Prim83"
-		path = "gfx/fonts/Prim83"
+		path = "gfx/fonts/prim83"
+		color = 0xffffffff
+	}
+	bitmapfont = {
+		name = "Prim83White"
+		path = "gfx/fonts/prim83white"
 		color = 0xffffffff
 	}
 }

@@ -1,0 +1,88 @@
+ideas = {
+    country = {
+        HAU_Golden_Decade_idea = {
+            
+            picture = HAU_Golden_Decade
+
+            modifier = {
+                political_power_factor = -0.1
+                stability_factor = 0.1
+                war_support_factor = -0.05
+                consumer_goods_factor = 0.1
+			}
+        }
+    }
+
+    country = {
+        HAU_NPJP_out_of_control_idea = {
+            
+            picture = HAU_NPJP_out_of_control
+
+            modifier = {
+                political_power_cost = 0.05
+                stability_factor = -0.05
+			}
+        }
+    }
+
+    country = {
+        HAU_Oil_Clique_idea = {
+            
+            picture = HAU_Oil_Clique
+
+            modifier = {
+                political_power_cost = 0.2
+                stability_factor = -0.05
+                local_resources_factor = 0.15
+                production_speed_infrastructure_factor = 0.2
+                production_speed_industrial_complex_factor = 0.2
+                production_speed_arms_factory_factor = 0.2
+                max_fuel_factor = 0.2
+			}
+        }
+    }
+
+    country = {
+        HAU_Memorizes_of_Revolution_idea = {
+            
+            picture = HAU_Memorizes_of_Revolution
+
+            modifier = {
+                war_support_factor = 0.1
+			}
+
+            targeted_modifier = {
+                tag = GRI
+                attack_bonus_against = 0.08
+                defense_bonus_against = 0.08
+            }
+        }
+    }
+
+    country = {
+        HAU_Crossroad_and_New_Resourses_idea = {
+            
+            picture = HAU_Crossroad_and_New_Resourses
+
+            modifier = {
+                min_export = 0.05
+                local_resources_factor = 0.15
+                consumer_goods_factor = 0.05
+			}
+        }
+    }
+
+    country = {
+        HAU_Different_NRP_idea = {
+            
+            picture = HAU_Different_NRP
+
+            modifier = {
+                political_power_cost = -0.05
+                stability_factor = -0.05
+                command_power_gain = -0.6
+			}
+        }
+    }
+
+}

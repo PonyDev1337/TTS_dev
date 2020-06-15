@@ -1,0 +1,83 @@
+
+focus_tree = {
+    id = baltimare
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = EBM
+        }
+    }
+
+    focus = {
+        id = EBM_start_rev
+        icon = GFX_goal_stg_socialist_revolution_pony
+        x = 12
+        y = 0
+        cost = 10
+        select_effect = {
+            country_event = {
+                id = baltimare.5
+                days = 10
+            }
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_start_rev"
+        }
+    }
+
+    focus = {
+        id = EBM_fires_of_rev
+        icon = GFX_goal_support_communism
+        x = 12
+        y = 1
+        cost = 10
+        select_effect = {
+            country_event = baltimare.1
+            days = 10
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_fires_of_rev"
+        }
+        prerequisite = { focus = EBM_start_rev }
+    }
+
+    focus = {
+        id = EBM_provisional_gov
+        icon = GFX_focus_generic_soviet_politics
+        x = 12
+        y = 2
+        cost = 10
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_provisional_gov"
+        }
+        prerequisite = { focus = EBM_fires_of_rev }
+    }
+
+    focus = {
+        id = EBM_support_DC
+        icon = GFX_goal_ideology_syndicalist
+        x = 10
+        y = 3
+        cost = 10
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_support_DC"
+        }
+        prerequisite = { focus = EBM_provisional_gov }
+        mutually_exclusive = { focus = EBM_support_BSS }
+    }
+
+    focus = {
+        id = EBM_support_BSS
+        icon = GFX_goal_ideology_totalist
+        x = 14
+        y = 3
+        cost = 10
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_support_BSS"
+        }
+        prerequisite = { focus = EBM_provisional_gov }
+        mutually_exclusive = { focus = EBM_support_DC }
+    }
+
+}

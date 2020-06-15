@@ -75,7 +75,7 @@ guiTypes = {
 		name = "ToolTip"
 		#textureFile = "gfx\\interface\\transparency.tga"
 		textureFile = "gfx\\interface\\tiles\\tiles_dialog.tga"
-		font = "cg_16b"
+		font = "Prim83White"
 		borderSize = { x=18 y=18 }
 		position = { x= 560 y=10 }
 		maxWidth = 400 #600 #320
@@ -267,6 +267,11 @@ guiTypes = {
 			alwaystransparent = yes
 		}
 
+<<<<<<< HEAD
+		
+
+=======
+>>>>>>> Left-version-of-ROC---Tek
 		decreaseButton = {
 			name = "Decrease"
 			quadTextureSprite = "GFX_scroll_up"
