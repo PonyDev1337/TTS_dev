@@ -1,0 +1,29 @@
+﻿capital = 1
+
+
+set_popularities = {
+	democratic = 100
+	fascism = 0
+	communism = 0
+	neutrality = 0
+	reformism = 0
+	alt_left = 0
+}
+set_politics = {
+
+	ruling_party = democratic
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "White Star"
+	expire = "1965.1.1"
+	ideology = socialism
+	desc = "POLITICS_STAR_DESC"
+	picture = "Navalnaya.tga"
+	traits = { 
+		protester
+	}
+}
