@@ -2,6 +2,7 @@ scripted_gui = {
 	es_button = {
 		context_type = player_context
 		window_name = "es_open_button"
+		parent_window_token = politics_tab
 
 		visible = {
 			OR = {
@@ -28,7 +29,7 @@ scripted_gui = {
 
 	tts_es_window = {
 		context_type = player_context
-
+		
 		window_name = "es_window"
 
 		visible = {
@@ -303,7 +304,7 @@ scripted_gui = {
 	}
 	es_open_action_window = {
 		context_type = player_context
-
+		parent_window_token = tts_es_window
 		window_name = "es_action_window"
 
 		visible = {

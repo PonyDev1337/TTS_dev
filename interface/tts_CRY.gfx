@@ -1,0 +1,198 @@
+spriteTypes = {
+	#idea
+	SpriteType = {
+		name = "GFX_idea_HAU_Crossroad_and_New_Resourses"
+		texturefile = "gfx/interface/ideas/CRY/HAU_Crossroad_and_New_Resourses.dds"
+	}
+	
+	#focus
+	SpriteType = {
+		name = "GFX_goal_CRY_between_two_fires"
+		texturefile = "gfx/interface/goals/CRY/CRY_between_two_fires.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_between_two_fires_shine"
+		texturefile = "gfx/interface/goals/CRY/CRY_between_two_fires.dds"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CRY/CRY_between_two_fires.dds"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_crystal_fair_preparations"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_crystal_fair_preparations.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_crystal_fair_preparations_shine"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_crystal_fair_preparations.tga"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CRY/goal_CRY_crystal_fair_preparations.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_calling_for_world_leaders"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_calling_for_world_leaders.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_calling_for_world_leaders_shine"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_calling_for_world_leaders.tga"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CRY/goal_CRY_calling_for_world_leaders.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_clean_the_streets"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_clean_the_streets.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_clean_the_streets_shine"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_clean_the_streets.tga"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CRY/goal_CRY_clean_the_streets.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_plebs_question"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_plebs_question.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_plebs_question_shine"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_plebs_question.tga"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CRY/goal_CRY_plebs_question.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_call_the_republican_leaders"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_call_the_republican_leaders.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_call_the_republican_leaders_shine"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_call_the_republican_leaders.tga"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CRY/goal_CRY_call_the_republican_leaders.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_call_the_crystal_clear_journalists"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_call_the_crystal_clear_journalists.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_call_the_crystal_clear_journalists_shine"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_call_the_crystal_clear_journalists.tga"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CRY/goal_CRY_call_the_crystal_clear_journalists.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_rise_royal_guard"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_rise_royal_guards.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_rise_royal_guard_shine"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_rise_royal_guards.tga"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CRY/goal_CRY_rise_royal_guards.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_final_reparations"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_final_reperations.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_CRY_final_reparations_shine"
+		texturefile = "gfx/interface/goals/CRY/goal_CRY_final_reperations.tga"
+				effectFile = "gfx/FX/buttonstate.lua"
+		animation = {
+			animationmaskfile = "gfx/interface/goals/CRY/goal_CRY_final_reperations.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = no			# yes or no ;)
+			animationtime = 0.75				# in seconds
+			animationdelay = 0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+	}
+}

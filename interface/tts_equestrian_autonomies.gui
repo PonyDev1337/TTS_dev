@@ -17,13 +17,13 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "es_window"
-		position = { x = 120 y = 400 }
+		position = { x = 540 y = 80 }
 		size = { width=400 height=600 }
-		moveable = yes
+		
 			
 		background = {
 			name = "Background"
-			quadTextureSprite = "GFX_es_bg"
+			quadTextureSprite = "GFX_tiled_plain_bg3"
 			position = { x = 5 y = 5 }
 		}
 
@@ -189,21 +189,21 @@ guiTypes = {
 	}
 	containerWindowType = {
 		name = "es_action_window"
-		position = { x = 120 y = 400 }
+		position = { x = -407 y = -600 }
 		size = { width=400 height=300 }
-		moveable = yes
+		orientation = LOWER_RIGHT
 			
 		background = {
 			name = "Background"
-			quadTextureSprite = "GFX_es_bg"
+			quadTextureSprite = "GFX_tiled_plain_bg3"
 			position = { x = 5 y = 5 }
 		}
 
 		instantTextboxType = {
 			name = "Name"
-			position = { x = 0 y = 3 }
+			position = { x = 30 y = 20 }
 			textureFile = ""
-			font = "JetSetSmall"
+			font = "Prim83White"
 			text = "[Root.GetAutName]"
 			maxWidth = 200
 			maxHeight = 36
@@ -212,9 +212,9 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "Loyalty"
-			position = { x = 0 y = 20 }
+			position = { x = 30 y = 40 }
 			textureFile = ""
-			font = "JetSetSmall"
+			font = "Prim83White"
 			text = "[Root.GetLoyalty]"
 			maxWidth = 200
 			maxHeight = 36
