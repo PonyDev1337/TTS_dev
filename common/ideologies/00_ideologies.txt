@@ -133,6 +133,9 @@ ideologies = {
 			nazism = {
 			}
 
+			state_socialism = {
+			}
+
 			fascism_ideology = {
 			}
 
