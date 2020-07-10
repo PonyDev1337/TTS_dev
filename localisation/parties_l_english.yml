@@ -68,9 +68,12 @@
  centrism:1 "Centrism"
  centrism_desc:1 "Centrist democracies avoid political extremes both on the left and right, promoting moderate and pragmatic reforms which seek to find the middle ground."
 
- EBM_socialism_rev:0 "BRC"
- EBM_socialism_rev_long:0 "Baltimare Revolutionary Commission"
- EBM_socialism_rev_desc:0 "This coalition is formed of both the BSS and the DC who for the moment are working togetehr to bring change to Baltimare."
+ EBM_socialism_rev:0 "BSU"
+ EBM_socialism_rev_long:0 "Baltimare Syndicalist Union"
+ EBM_socialism_rev_desc:0 "Aromia Star's BSU aims to bring a functional syndacalist government to the ponies of baltimare."
+ EBM_soc_night:0 "BSS"
+ EBM_soc_night_long:0 "Baltimare State Socialism"
+ EBM_soc_night_desc:0 "Midnight Sky's controversial BSS party is a mix of far left socialism and right wing thestralian nationalism."
  
 
  EQS_neutrality_party:0 "TTS"
