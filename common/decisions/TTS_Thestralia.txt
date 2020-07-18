@@ -20,6 +20,113 @@ mango_decisions = {
           }
      }
 
+     civilian_industry_investment = {
+          visible = {
+  
+          }
+          custom_cost_trigger = {
+               check_variable = { ETH.mango_amount > 120 }
+            }
+            custom_cost_text = ETH_120_mango_cost
+          available = {
+          }
+          complete_effect = {
+               random_owned_state = {
+                    add_building_construction = { type = industrial_complex level = 1 instant_build = yes }
+               }
+               subtract_from_variable = {
+                         var = ETH.mango_amount
+                         value = 120
+               }
+          }
+     }
+
+     military_industry_investment = {
+          visible = {
+  
+          }
+          custom_cost_trigger = {
+               check_variable = { ETH.mango_amount > 125 }
+            }
+            custom_cost_text = ETH_125_mango_cost
+          available = {
+          }
+          complete_effect = {
+               random_owned_state = {
+                    add_building_construction = { type = arms_factory level = 1 instant_build = yes }
+               }
+               subtract_from_variable = {
+                         var = ETH.mango_amount
+                         value = 125
+               }
+          }
+     }
+
+     dockyard_investment = {
+          visible = {
+  
+          }
+          custom_cost_trigger = {
+               check_variable = { ETH.mango_amount > 130 }
+            }
+            custom_cost_text = ETH_130_mango_cost
+          available = {
+          }
+          complete_effect = {
+               random_owned_state = {
+                    add_building_construction = { type = dockyard level = 1 instant_build = yes }
+               }
+               subtract_from_variable = {
+                         var = ETH.mango_amount
+                         value = 130
+               }
+          }
+     }
+
+     stimulate_building_industry = {
+          visible = {
+  
+          }
+          custom_cost_trigger = {
+               check_variable = { ETH.mango_amount > 100 }
+            }
+            custom_cost_text = ETH_100_mango_cost
+          available = {
+          }
+          modifier = {
+               production_speed_buildings_factor = 0.1
+          }
+          days_remove = 120
+          complete_effect = {
+               
+               subtract_from_variable = {
+                         var = ETH.mango_amount
+                         value = 100
+               }
+          }
+     }
+
+     expand_mango_plantations = {
+          visible = {
+  
+          }
+          custom_cost_trigger = {
+               check_variable = { ETH.mango_amount > 150 }
+            }
+            custom_cost_text = ETH_150_mango_cost
+          available = {
+          }
+          complete_effect = {
+               add_to_variable = {
+                         var = ETH.mango_per_month
+                         value = 1
+               }
+               subtract_from_variable = {
+                         var = ETH.mango_amount
+                         value = 150
+               }
+          }
+     }
 
 
 

@@ -2,33 +2,39 @@
  
  ###party###
  ETH_neutrality_party:0 "TNVP"
-<<<<<<< HEAD
+
  ETH_neutrality_party_long:0 "Thestralian national volksparty"
-=======
+
  ETH_neutrality_party_long:0 "Thestralian national volksparty
->>>>>>> Left-version-of-ROC---Tek
  ETH_democratic_party:0 "Republicans"
  ETH_democratic_party_long:0 "Republican party (Thestralia)"
  ETH_fascism_party:0 "Volksbund"
  ETH_reformism_party:0 "IPPT"
  ETH_reformism_party_long:0 "Independent Progressive Party Thestralia"
-<<<<<<< HEAD
+
  ETH_communism:0 "Left Opposition"
-=======
+
  ETH_commonwealth:0 "Left Opposition"
->>>>>>> Left-version-of-ROC---Tek
+
  
  ###events###
  thestralia.1.t:0 "."
  thestralia.1.d:0 "."
  thestralia.1.a:0 "."
-<<<<<<< HEAD
+
  
  ###decisions###
 mango_decisions:0 "Mango industry"
 mango_decisions_desc:0 "£GFX_mango_icon [?ETH.mango_amount]\n£GFX_mango_icon [?ETH.mango_per_month]"
 ETH_75_mango_cost:0 "£GFX_mango_icon §Y75"
 ETH_75_mango_cost_blocked:0 "£GFX_mango_icon §R75"
-=======
- 
->>>>>>> Left-version-of-ROC---Tek
+ETH_100_mango_cost:0 "£GFX_mango_icon §Y100"
+ETH_100_mango_cost_blocked:0 "£GFX_mango_icon §R100"
+ETH_120_mango_cost:0 "£GFX_mango_icon §Y120"
+ETH_120_mango_cost_blocked:0 "£GFX_mango_icon §R120"
+ETH_125_mango_cost:0 "£GFX_mango_icon §Y125"
+ETH_125_mango_cost_blocked:0 "£GFX_mango_icon §R125"
+ETH_130_mango_cost:0 "£GFX_mango_icon §Y130"
+ETH_130_mango_cost_blocked:0 "£GFX_mango_icon §R130"
+ETH_150_mango_cost:0 "£GFX_mango_icon §Y150"
+ETH_150_mango_cost_blocked:0 "£GFX_mango_icon §R150"
