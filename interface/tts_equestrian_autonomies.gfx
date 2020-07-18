@@ -8,4 +8,229 @@ spriteTypes = {
 		name = "GFX_es_bg"
 		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_bg.dds"
 	}
+
+	spriteType = {
+		name = "GFX_eqs_heartland_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/eqs_heartland.dds"
+	}
+
+	spriteType = {
+		name = "GFX_fillydelphia_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/fillydelphia_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_manehatten_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/manehatten_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tall_tale_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/tall_tale_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_acornage_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/acornage_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_albion_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/albion_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_bales_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/bales_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_marechester_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/marechester_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_prance_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/prance_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_stratusburg_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/stratusburg_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_vanhoover_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/vanhoover_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_whinnyapolis_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/whinnyapolis_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_aztlan_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/aztlan_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_baltimare_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/baltimare_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_buffalo_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/buffalo_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_dodge_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/dodge_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_hoofington_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/hoofington_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_lospegasus_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/lospegasus_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_rock_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/rock_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_south_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/south_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_stableside_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/stableside_disloyal.dds"
+	}
+
+	spriteType = {
+		name = "GFX_thestralia_disloyal_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/es_counties/thestralia_disloyal.dds"
+	}
+
+
+
+
+
+
+
+
+
+
+	spriteType = {
+		name = "GFX_opt_stableside_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_stableside_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_acornage_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_acornage_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_albion_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_albion_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_aztlan_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_aztlan_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_bales_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_bales_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_buffalo_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_buffalo_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_baltimare_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_baltimare_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_dodgecity_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_dodgecity_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_fillydelphia_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_fillydelphia_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_hoofington_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_hoofington_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_lospegasus_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_lospegasus_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_manehatten_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_manehatten_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_marechester_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_marechester_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_prance_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_prance_ineqs_button.dds"
+	}
+	spriteType = {
+		name = "GFX_opt_rock_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_rock_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_southequestrian_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_southequestrian_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_stratusburg_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_stratusburg_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_tall_tale_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_tall_tale_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_thestralia_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_thestralia_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_vanhoover_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_vanhoover_ineqs_button.dds"
+	}
+
+	spriteType = {
+		name = "GFX_opt_whinnyapolis_ineqs_button"
+		texturefile = "gfx/interface/ttstcc_gui/Equestrian_Subjects/opt_whinnyapolis_ineqs_button.dds"
+	}
+
+
 }
