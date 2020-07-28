@@ -1,0 +1,46 @@
+scripted_gui = {
+	celestia_evil_gui = {
+		context_type = player_context
+
+		window_name = "celestia_evil_gui"
+		
+
+		visible = { 
+
+			has_variable = global.celestia_evil
+		}
+
+		effects = { }
+
+		triggers = {
+			
+		}
+		properties = {
+			cel_evil_bar = {
+				x = global.celestia_evil
+			}
+		}
+	}
+	luna_evil_gui = {
+		context_type = player_context
+
+		window_name = "luna_evil_gui"
+		
+
+		visible = { 
+
+			has_variable = global.luna_evil
+		}
+
+		effects = { }
+
+		triggers = {
+			
+		}
+		properties = {
+			lun_evil_bar = {
+				x = global.luna_evil
+			}
+		}
+	}
+}

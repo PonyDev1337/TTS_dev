@@ -1,0 +1,31 @@
+spriteTypes = {
+	
+	SpriteType = {
+		name = "GFX_celestia_evilmeter_bg"
+		texturefile = "gfx/interface/ttstcc_gui/Princess_Evil-o-meter/Celestia_evil-o-meter_bg.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_celestia_evilmeter"
+		texturefile = "gfx/interface/ttstcc_gui/Princess_Evil-o-meter/Celestia_evil-o-meter.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_bg_evilom"
+		texturefile = "gfx/interface/ttstcc_gui/Princess_Evil-o-meter/bg_evilom.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_luna_evilmeter_bg"
+		texturefile = "gfx/interface/ttstcc_gui/Princess_Evil-o-meter/Luna_evil-o-meter_bg.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_luna_evilmeter"
+		texturefile = "gfx/interface/ttstcc_gui/Princess_Evil-o-meter/Luna_evil-o-meter.dds"
+	}
+
+	
+
+}
+	

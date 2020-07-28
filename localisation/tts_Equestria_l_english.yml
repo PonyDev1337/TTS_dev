@@ -1,0 +1,13 @@
+﻿l_english:
+ 
+ ###party###
+ EQS_neutrality_party:0 "Celestia's Supporters"
+ EQS_democratic_party:0 "Luna's Supporters"
+ EQS_fascism_party:0 "EFP"
+ EQS_fascism_party_long:0 "Equestria First Party"
+ EQS_reformism_party:0 "Twilight's Supporters"
+ EQS_communism_party:0 "PCP"
+ EQS_communism_party_long:0 "Ponies Communist Party"
+
+ CEL_EVIL_BAR_INFO:0 "Celestia's level of mental corruption is §G[?global.celestia_evil]§!/§R352§!"
+ LUN_EVIL_BAR_INFO:0 "Luna's level of mental corruption is §G[?global.luna_evil]§!/§R352§!"

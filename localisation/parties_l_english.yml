@@ -76,21 +76,7 @@
  EBM_soc_night_desc:0 "Midnight Sky's controversial BSS party is a mix of far left socialism and right wing thestralian nationalism."
  
 
- EQS_neutrality_party:0 "TTS"
- EQS_neutrality_party_long:0 "Three Tribes Supporters"
- EQS_communism_party:0 "PCP"
- EQS_communism_party_long:0 "Ponies Communist Party"
- EQS_democratic_party:0 "Alicorn Rule"
- EQS_fascism_generic_party:0 "PPS"
- EQS_fascism_generic_party_long:0 "Party of Pony Supremacy"
- EQS_fascism_party:0 "HSR"
- EQS_fascism_party_long:0 "Holy Sun Reign"
- EQS_diet:0 "Equestrian Diet"
- EQS_diet_long:0 "The High Equestrian Diet and Her Majesty the Princess"
- EQS_commonwealth:0 "Equestrian Parliament"
- EQS_commonwealth_long:0 "The Princess and Parliament of Equestria"
- EQS_republic:0 "Equestrian Congress"
- EQS_republic_long:0 "The Congress and President of Equestria"
+ 
 
  SOL_neutrality_party:0 "SPP"
  SOL_neutrality_party_long:0 "Secular Ponies' Party"

@@ -1,0 +1,73 @@
+guiTypes = {
+	containerWindowType = {
+		name = "celestia_evil_gui"
+		position = {x=540 y=100}
+		size = { width=481 height=124 }
+		
+		iconType = {
+			name = "coreization_bar_bg"
+			spriteType = "GFX_celestia_evilmeter_bg"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "CEL_EVIL_BAR_INFO"
+		}
+		iconType = {
+			name = "bg_evilom"
+			spriteType = "GFX_celestia_evilmeter"
+			position = { x = 26 y = 26 }
+			size = { width=352 height=70 }
+			
+			pdx_tooltip = "CEL_EVIL_BAR_INFO"
+
+		}
+		containerWindowType = {
+			name = "celestia_evilmeter_1"
+			position = {x=26 y=26}
+			size = { width=352 height=70 }
+			orientation = upper_left
+			clipping = yes
+			
+			iconType = {
+				name = "cel_evil_bar"
+				spriteType = "GFX_bg_evilom"
+				position = { x=0 y=0 }
+				alwaystransparent = yes
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "luna_evil_gui"
+		position = {x=540 y=200}
+		size = { width=481 height=124 }
+		
+		iconType = {
+			name = "coreization_bar_bg"
+			spriteType = "GFX_luna_evilmeter_bg"
+			position = { x = 0 y = 0 }
+			pdx_tooltip = "LUN_EVIL_BAR_INFO"
+		}
+		iconType = {
+			name = "bg_evilom"
+			spriteType = "GFX_luna_evilmeter"
+			position = { x = 26 y = 26 }
+			size = { width=352 height=70 }
+			
+			pdx_tooltip = "LUN_EVIL_BAR_INFO"
+
+		}
+		containerWindowType = {
+			name = "luna_evilmeter_1"
+			position = {x=26 y=26}
+			size = { width=352 height=70 }
+			orientation = upper_left
+			clipping = yes
+			
+			iconType = {
+				name = "lun_evil_bar"
+				spriteType = "GFX_bg_evilom"
+				position = { x=0 y=0 }
+				alwaystransparent = yes
+			}
+		}
+	}
+}
