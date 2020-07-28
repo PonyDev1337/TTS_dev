@@ -1,0 +1,17 @@
+scripted_gui = {
+	state_improvements_screen = {
+		context_type = selected_state_context
+
+		window_name = "state_improvements_container"
+		parent_window_token = selected_state_view 
+
+		visible = { }
+
+		effects = { }
+		triggers = {
+			lel_visible = {
+				check_variable = { race = 1 }
+			}
+		}
+	}
+}

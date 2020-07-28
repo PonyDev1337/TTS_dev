@@ -1,0 +1,162 @@
+ideas = {
+
+	country = {
+
+		CRY_republican_protests = {
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			available = {
+				
+			}
+			modifier = {
+				stability_factor = -0.25
+				political_power_factor = -0.5
+				democratic_drift = 0.03
+				reformism_drift = 0.03
+				communism_drift =  0.03
+			}
+		}
+		CRY_crystal_heart = {
+		allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			available = {
+				
+			}
+			modifier = {
+			stability_factor = 0.03
+			}
+		}
+		CRY_royalty = {
+		allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			available = {
+				
+			}
+			modifier = {
+			stability_factor = 0.05
+			}
+		}
+
+		CRY_unloyal_crystal_clear = {
+		allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			available = {
+				
+			}
+			modifier = {
+			stability_factor = -0.1
+			democratic_drift = 0.03
+			reformism_drift = 0.03
+			communism_drift =  0.03
+			}
+		}
+
+		CRY_unloyal_crystal_clear_2 = {
+		allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			available = {
+				
+			}
+			modifier = {
+			stability_factor = -0.08
+			democratic_drift = 0.03
+			reformism_drift = 0.03
+			communism_drift =  0.03
+			}
+		}
+
+		CRY_unloyal_crystal_clear_3 = {
+		allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			available = {
+				
+			}
+			modifier = {
+			stability_factor = -0.06
+			democratic_drift = 0.03
+			reformism_drift = 0.02
+			communism_drift =  0.01
+			}
+		}
+
+		CRY_unloyal_crystal_clear_4 = {
+		allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			available = {
+				
+			}
+			modifier = {
+			stability_factor = -0.04
+			democratic_drift = 0.02
+			reformism_drift = 0.01
+			}
+
+		}
+
+		CRY_unloyal_crystal_clear_5 = {
+		allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			available = {
+				
+			}
+			modifier = {
+			stability_factor = -0.02
+			democratic_drift = 0.01
+			}
+		}
+
+		CRY_loyal_crystal_clear = {
+		allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			available = {
+				
+			}
+			modifier = {
+			stability_factor = 0.05
+			neutrality_drift = 0.02
+			fascism_drift = 0.04
+			}
+		}
+
+
+	}
+
+
+}

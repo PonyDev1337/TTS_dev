@@ -1,0 +1,31 @@
+focus_tree = {
+	id = CRY_precivilwar_focus
+
+	country = {
+		factor = 0
+		modifier = { add = 20 tag = CRY }
+	}
+
+	default = no
+	reset_on_civilwar = no
+	
+	shared_focus = CRY_between_two_fires
+
+}
+
+focus_tree = {
+	id = CRY_unrest
+
+	country = {
+		factor = 0
+		modifier = { add = 30 tag = CRY has_country_flag = CRY_unrest }
+	}
+
+	default = no
+	reset_on_civilwar = no
+	
+	shared_focus = CRY_between_two_fires
+	shared_focus = CRY_storm_on_crystal_city
+
+
+}
