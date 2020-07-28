@@ -53,54 +53,17 @@ focus_tree = {
         }
         prerequisite = { focus = EBM_fires_of_rev }
     }
-    
-    focus = {
-        id = EBM_economic_dec
-        x = 10
-        y = 3
-        cost = 10
-        completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus EBM_economic_dec"
-        }
-        prerequisite = { focus = EBM_provisional_gov }
-    }
-
-    focus = {
-        id = EBM_defense_dec
-        x = 12
-        y = 3
-        cost = 10
-        completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus EBM_defense_dec"
-        }
-        prerequisite = { focus = EBM_provisional_gov }
-    }
-
-    focus = {
-        id = EBM_fate_of_bss
-        x = 14
-        y = 3
-        cost = 10
-        completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus EBM_fate_of_bss"
-        }
-        prerequisite = { focus = EBM_provisional_gov }
-    }
 
     focus = {
         id = EBM_support_DC
         icon = GFX_goal_ideology_syndicalist
         x = 10
-        y = 4
+        y = 3
         cost = 10
         completion_reward = {
             log = "[GetDateText]: [Root.GetName]: Focus EBM_support_DC"
         }
-        prerequisite = { 
-            focus = EBM_economic_dec
-            focus = EBM_defense_dec
-            focus = EBM_fate_of_bss
-        }
+        prerequisite = { focus = EBM_provisional_gov }
         mutually_exclusive = { focus = EBM_support_BSS }
     }
 
@@ -108,16 +71,12 @@ focus_tree = {
         id = EBM_support_BSS
         icon = GFX_goal_ideology_totalist
         x = 14
-        y = 4
+        y = 3
         cost = 10
         completion_reward = {
             log = "[GetDateText]: [Root.GetName]: Focus EBM_support_BSS"
         }
-        prerequisite = { 
-            focus = EBM_economic_dec
-            focus = EBM_defense_dec
-            focus = EBM_fate_of_bss
-        }
+        prerequisite = { focus = EBM_provisional_gov }
         mutually_exclusive = { focus = EBM_support_DC }
     }
 

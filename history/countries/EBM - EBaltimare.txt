@@ -1,6 +1,5 @@
 ﻿capital = 1
 
-oob = "EBM_1032"
 
 set_research_slots = 4
 
