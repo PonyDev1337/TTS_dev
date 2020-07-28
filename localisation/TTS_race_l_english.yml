@@ -1,5 +1,0 @@
-﻿l_english:
- TTS_RACE_INFO:0 "The majority race of §Y[This.GetName]§! is §Y[This.GetRace]§!"
-
-  var_race_pony:0 "Pony"
-  

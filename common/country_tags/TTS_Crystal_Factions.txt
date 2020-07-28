@@ -1,8 +1,0 @@
-### LOYALISTS ###
-KRG = "countries/CRY_factions/MeaningOfTime.txt"
-PLR = "countries/CRY_factions/PR.txt"
-PRS = "countries/CRY_factions/CrystalEthnostate.txt"
-### REPUBLICANS ###
-RUD = "countries/CRY_factions/Thunderbird.txt" ##Commies
-RAB = "countries/CRY_factions/Charm.txt" #LeftyLibs
-NVL = "countries/CRY_factions/WhiteStar.txt" #Libs

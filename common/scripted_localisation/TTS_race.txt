@@ -1,9 +1,0 @@
-defined_text = {
-	name = GetRace
-	text = { # Pony
-		trigger = {
-			check_variable = { race = 1 }
-		}
-		localization_key = var_race_pony
-	}
-}
