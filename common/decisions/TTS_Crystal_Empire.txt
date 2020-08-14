@@ -1,0 +1,29 @@
+CRY_crystal_fair_decisions = {
+	dfdevelop_infrastructure = {
+          visible = {
+  
+          }
+          custom_cost_trigger = {
+			check_variable = { ETH.mango_amount > 75 }
+		  }
+		  custom_cost_text = ETH_75_mango_cost
+          available = {
+          }
+          complete_effect = {
+               random_owned_state = {
+                    add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+               }
+               subtract_from_variable = {
+               		var = ETH.mango_amount
+               		value = 75
+               }
+          }
+     }
+
+
+
+
+
+
+
+}

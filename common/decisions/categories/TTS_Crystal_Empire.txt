@@ -1,0 +1,11 @@
+
+CRY_crystal_fair_decisions = {
+	icon = GFX_mango_icon
+	allowed = {
+ 		has_idea = CRY_crystal_fair_preparations
+	}
+	visible = {
+		has_idea = CRY_crystal_fair_preparations
+	}
+	scripted_gui = CRY_crystal_fair_decision_ui
+}

@@ -35,6 +35,21 @@ ideas = {
 			stability_factor = 0.03
 			}
 		}
+		CRY_crystal_fair_preparations = {
+		allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			available = {
+				
+			}
+			modifier = {
+				production_speed_buildings_factor = -0.05
+				consumer_goods_factor = 0.05
+			}
+		}
 		CRY_royalty = {
 		allowed = {
 				always = no

@@ -1,0 +1,6 @@
+spriteTypes = {
+	SpriteType = {
+		name = "GFX_small_bg_for_budg"
+		texturefile = "gfx/interface/ttstcc_gui/Misc/small_bg_for_budg.dds"
+	}
+	}

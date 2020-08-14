@@ -1,0 +1,10 @@
+scripted_gui = {
+	CRY_crystal_fair_decision_ui = {
+		context_type = decision_category
+		window_name = "CRY_crystal_fair_decision_ui"
+
+		properties = {
+			
+		}
+	}
+}

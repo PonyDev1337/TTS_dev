@@ -5,6 +5,23 @@ add_namespace = CRY_civvar
 ###################################################################
 
 country_event = {
+	id = CRY_prewar.2
+	title = CRY_prewar.2.t
+	desc = CRY_prewar.2.d
+	is_triggered_only = yes
+	
+	option = {
+		name = CRY_prewar.2.a
+		add_ideas = CRY_crystal_fair_preparations
+		set_variable = {
+               		var = CRY_Crystal_Fair_Budget
+               		value = 1000
+               }
+	}
+}
+
+
+country_event = {
 	id = CRY_prewar.6
 	title = CRY_prewar.6.t
 	desc = CRY_prewar.6.d
