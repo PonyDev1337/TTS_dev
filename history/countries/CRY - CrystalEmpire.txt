@@ -77,11 +77,11 @@ add_equipment_to_stockpile = {
 	producer = CRY
 }
 add_ideas = {
-	crystal_heart
-	mourning_for_cadenza
-	destroyed_industry
-	republican_opposition
-	crystal_clear
+	CRY_crystal_heart
+	CRY_royalty
+	CRY_republican_protests
+	CRY_unloyal_crystal_clear
+	member_of_canterlot_pact
 }
 
 set_stability = 0.50
