@@ -31,6 +31,7 @@ technologies = {
 
 		enable_subunits = {
 			infantry
+			shield_forces
 		}
 
 		path = {
