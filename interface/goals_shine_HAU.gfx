@@ -1,3 +1,5 @@
+spriteTypes = {
+
 	SpriteType = {
 		name = "GFX_goal_HAU_Armed_Against_White_Army_shine"
 		texturefile = "gfx/interface/goals/goal_HAU_Armed_Against_White_Army.dds"
@@ -991,3 +993,4 @@
 		legacy_lazy_load = no
 	}
 	}
+}
