@@ -1,10 +1,13 @@
 
 CRY_crystal_fair_decisions = {
 	icon = GFX_mango_icon
+	visible_when_empty = yes
 	allowed = {
+		tag = CRY
  		has_idea = CRY_crystal_fair_preparations
 	}
 	visible = {
+		tag = CRY
 		has_idea = CRY_crystal_fair_preparations
 	}
 	scripted_gui = CRY_crystal_fair_decision_ui

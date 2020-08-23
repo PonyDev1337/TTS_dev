@@ -1,29 +1,87 @@
 CRY_crystal_fair_decisions = {
-	dfdevelop_infrastructure = {
+	CRR_CF_add_budget = {
           visible = {
-  
+               NOT = {has_country_flag = CRY_CF_prevent_idiot}
           }
-          custom_cost_trigger = {
-			check_variable = { ETH.mango_amount > 75 }
-		  }
-		  custom_cost_text = ETH_75_mango_cost
           available = {
           }
           complete_effect = {
-               random_owned_state = {
-                    add_building_construction = { type = infrastructure level = 1 instant_build = yes }
+               
+               subtract_from_variable = {
+                         var = republican_loyalty
+                         value = 3
                }
                subtract_from_variable = {
-               		var = ETH.mango_amount
-               		value = 75
+                         var = loyalist_loyalty
+                         value = 3
                }
+               add_to_variable = {
+                    var = CRY_Crystal_Fair_Budget
+                    value = 1000 
+               }
+               custom_effect_tooltip = CRY_CF_add_budget_tt
+               set_country_flag = CRY_CF_prevent_idiot
+          }
+     }
+     CRY_call_from_EQS = {
+          visible = {
+               NOT = {has_country_flag = CRY_CF_call_from_EQS}
+          }
+          available = {
+          }
+          complete_effect = {
+               country_event = { id = CRY_prewar.10 }
+               set_country_flag = CRY_CF_call_from_EQS
+          }
+     }
+     CRY_call_from_STG = {
+          visible = {
+               NOT = {has_country_flag = CRY_CF_call_from_STG}
+          }
+          available = {
+          }
+          complete_effect = {
+               country_event = { id = CRY_prewar.11 }
+               set_country_flag = CRY_CF_call_from_STG
           }
      }
 
+     CRY_call_from_GRI = {
+          visible = {
+               NOT = {has_country_flag = CRY_CF_call_from_GRI}
+          }
+          available = {
+          }
+          complete_effect = {
+               country_event = { id = CRY_prewar.12 }
+               set_country_flag = CRY_CF_call_from_GRI
+          }
+     }
 
+     CRY_call_from_RIV = {
+          visible = {
+               NOT = {has_country_flag = CRY_CF_call_from_RIV}
+          }
+          available = {
+          }
+          complete_effect = {
+               country_event = { id = CRY_prewar.13 }
+               set_country_flag = CRY_CF_call_from_RIV
+          }
+     }
 
-
-
+     CRY_call_from_other = {
+          visible = {
+          has_completed_focus = 
+               NOT = {has_country_flag = CRY_CF_call_from_other}
+          }
+          available = {
+          }
+          complete_effect = {
+               country_event = { id = CRY_prewar.14 }
+               set_country_flag = CRY_CF_call_from_other
+          }
+     }
 
 
 }

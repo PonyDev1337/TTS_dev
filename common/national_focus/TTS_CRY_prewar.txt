@@ -80,7 +80,7 @@ shared_focus = {
 		prerequisite = { focus = CRY_clean_the_streets }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRY_drive_away_plebs"
-			country_event = { id = CRY_prewar.5 }
+			country_event = { id = CRY_prewar.8 }
 		}
 		
 }
@@ -97,7 +97,7 @@ shared_focus = {
 		prerequisite = { focus = CRY_crystal_fair_preparations }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRY_call_the_republican_leaders"
-			country_event = { id = CRY_prewar.6 }
+			country_event = { id = CRY_prewar.5 }
 		}
 		
 }
@@ -114,7 +114,7 @@ shared_focus = {
 		prerequisite = { focus = CRY_call_the_republican_leaders }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRY_call_the_republican_leaders"
-			country_event = { id = CRY_prewar.6 }
+			country_event = { id = CRY_prewar.7 }
 		}
 		
 }
