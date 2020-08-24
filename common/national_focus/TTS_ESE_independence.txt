@@ -116,8 +116,8 @@ shared_focus = {
 		icon = GFX_goal_ESE_get_rid_on_the_gangs
 		x = 3
 		y = 3
-		cost = 2
-
+		cost = 8
+		cancelable = no
 		available_if_capitulated = yes
 		prerequisite = { focus = ESE_privatisation_of_EQS_state_means }
 		prerequisite = { focus = ESE_new_nationalist_propaganda }

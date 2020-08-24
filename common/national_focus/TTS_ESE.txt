@@ -13,3 +13,15 @@ focus_tree = {
 	shared_focus = ESE_external_affairs
 }
 
+focus_tree = {
+	id = ESE_autonomy
+
+	country = {
+		factor = 0
+		modifier = { add = 20 tag = ESE is_subject = yes }
+	}
+
+	default = no
+	reset_on_civilwar = no
+	
+}
