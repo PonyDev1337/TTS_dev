@@ -1,0 +1,355 @@
+shared_focus = {
+
+		id = ESE_freedom
+		icon = GFX_goal_ESE_freedom
+		x = 3
+		y = 0
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_freedom"
+			country_event = { id = ESE_independence.1 }
+		}
+
+
+}
+
+shared_focus = {
+
+		id = ESE_parliament_full_power
+		icon = GFX_goal_ESE_parliament_full_power
+		x = 1
+		y = 1
+		cost = 3
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_freedom }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_parliament_full_power"
+			country_event = { id = ESE_independence.2 }
+		}
+
+
+}
+
+shared_focus = {
+
+		id = ESE_expand_the_militia
+		icon = GFX_goal_ESE_expand_the_militia
+		x = 3
+		y = 1
+		cost = 5
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_freedom }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_expand_the_militia"
+			country_event = { id = ESE_independence.3 }
+		}
+
+
+}
+
+shared_focus = {
+
+		id = ESE_interruption_of_economic_links
+		icon = GFX_goal_ESE_interruption_of_economic_links
+		x = 5
+		y = 1
+		cost = 8
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_freedom }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_interruption_of_economic_links"
+			country_event = { id = ESE_independence.4 }
+		}
+
+
+}
+
+shared_focus = {
+
+		id = ESE_privatisation_of_EQS_state_means
+		icon = GFX_goal_ESE_privatisation_of_EQS_state_means
+		x = 4
+		y = 2
+		cost = 8
+
+		available_if_capitulated = yes
+		rerequisite = { focus = ESE_parliament_full_power }
+		prerequisite = { focus = ESE_expand_the_militia }
+		prerequisite = { focus = ESE_interruption_of_economic_links }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_privatisation_of_EQS_state_means"
+			country_event = { id = ESE_independence.5 }
+		}
+
+
+}
+
+shared_focus = {
+
+		id = ESE_new_nationalist_propaganda
+		icon = GFX_goal_ESE_new_nationalist_propaganda
+		x = 2
+		y = 2
+		cost = 8
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_parliament_full_power }
+		prerequisite = { focus = ESE_expand_the_militia }
+		prerequisite = { focus = ESE_interruption_of_economic_links }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_privatisation_of_EQS_state_means"
+			country_event = { id = ESE_independence.6 }
+		}
+
+
+}
+
+shared_focus = {
+
+		id = ESE_get_rid_on_the_gangs
+		icon = GFX_goal_ESE_get_rid_on_the_gangs
+		x = 3
+		y = 3
+		cost = 2
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_privatisation_of_EQS_state_means }
+		prerequisite = { focus = ESE_new_nationalist_propaganda }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_get_rid_on_the_gangs"
+			country_event = { id = ESE_independence.7 }
+		}
+
+}
+
+shared_focus = {
+
+		id = ESE_destroy_mad_libertarians
+		icon = GFX_goal_ESE_destroy_mad_libertarians
+		x = 0
+		y = 4
+		cost = 3
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_get_rid_on_the_gangs }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_destroy_mad_libertarians"
+			country_event = { id = ESE_independence.8 }
+		}
+
+}
+
+shared_focus = {
+
+		id = ESE_skewer_commie_gangs
+		icon = GFX_goal_ESE_skewer_commie_gangs
+		x = 2
+		y = 4
+		cost = 3
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_get_rid_on_the_gangs }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_skewer_commie_gangs"
+			country_event = { id = ESE_independence.9 }
+		}
+
+}
+
+shared_focus = {
+
+		id = ESE_destroy_EQS_corporate_mercenaries
+		icon = GFX_goal_ESE_seize_EQS_corporate_property
+		x = 4
+		y = 4
+		cost = 3
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_get_rid_on_the_gangs }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_seize_EQS_corporate_property"
+			country_event = { id = ESE_independence.9 }
+		}
+
+}
+
+shared_focus = {
+
+		id = ESE_storm_the_racist_clans
+		icon = GFX_goal_ESE_storm_the_racist_clans
+		x = 6
+		y = 4
+		cost = 3
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_get_rid_on_the_gangs }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_storm_the_racist_clans"
+			country_event = { id = ESE_independence.9 }
+		}
+
+}
+shared_focus = {
+
+		id = ESE_consolidate_power
+		icon = GFX_goal_ESE_consolidate_power
+		x = 3
+		y = 5
+		cost = 3
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_destroy_mad_libertarians }
+		prerequisite = { focus = ESE_skewer_commie_gangs }
+		prerequisite = { focus = ESE_destroy_EQS_corporate_mercenaries }
+		prerequisite = { focus = ESE_storm_the_racist_clans }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_consolidate_power"
+			country_event = { id = ESE_independence.9 }
+		}
+
+}
+
+shared_focus = {
+
+		id = ESE_external_affairs
+		icon = GFX_goal_ESE_external_affairs
+		x = 12
+		y = 0
+		cost = 3
+
+		available_if_capitulated = yes
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_consolidate_power"
+			country_event = { id = ESE_independence.9 }
+		}
+
+}
+
+shared_focus = {
+
+		id = ESE_how_to_block_EQS_veto
+		icon = GFX_goal_ESE_how_to_block_EQS_veto
+		x = 12
+		y = 1
+		cost = 3
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_external_affairs }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_how_to_block_EQS_veto"
+			country_event = { id = ESE_independence.9 }
+		}
+
+}
+
+shared_focus = {
+
+		id = ESE_internationale_support
+		icon = GFX_goal_ESE_internationale_support
+		x = 9
+		y = 2
+		cost = 2
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_how_to_block_EQS_veto }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_internationale_support"
+			country_event = { id = ESE_independence.9 }
+		}
+
+}
+
+shared_focus = {
+
+		id = ESE_reichspakt_support
+		icon = GFX_goal_ESE_reichspakt_support
+		x = 11
+		y = 2
+		cost = 2
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_how_to_block_EQS_veto }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_reichspakt_support"
+			country_event = { id = ESE_independence.9 }
+		}
+
+}
+
+shared_focus = {
+
+		id = ESE_river_fed_support
+		icon = GFX_goal_ESE_river_fed_support
+		x = 13
+		y = 2
+		cost = 2
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_how_to_block_EQS_veto }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_river_fed_support"
+			country_event = { id = ESE_independence.9 }
+		}
+
+}
+
+shared_focus = {
+
+		id = ESE_kirin_support
+		icon = GFX_goal_ESE_kirin_support
+		x = 15
+		y = 2
+		cost = 2
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_how_to_block_EQS_veto }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_kirin_support"
+			country_event = { id = ESE_independence.9 }
+		}
+
+}
+
+shared_focus = {
+
+		id = ESE_enter_the_UNO
+		icon = GFX_goal_ESE_enter_the_UNO
+		x = 12
+		y = 3
+		cost = 2
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_internationale_support }
+		prerequisite = { focus = ESE_reichspakt_support }
+		prerequisite = { focus = ESE_river_fed_support }
+		prerequisite = { focus = ESE_kirin_support }
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_enter_the_UNO"
+			country_event = { id = ESE_independence.9 }
+		}
+
+}
+
+shared_focus = {
+
+		id = ESE_UNO_recognization_ultimatum_to_EQS
+		icon = GFX_goal_ESE_UNO_recognization_ultimatum_to_EQS
+		x = 12
+		y = 4
+		cost = 2
+
+		available_if_capitulated = yes
+		prerequisite = { focus = ESE_enter_the_UNO }
+		
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus ESE_UNO_recognization_ultimatum_to_EQS"
+			country_event = { id = ESE_independence.9 }
+		}
+
+}

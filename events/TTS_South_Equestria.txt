@@ -1,0 +1,112 @@
+add_namespace = ESE_independence
+###################################################################
+#########################INDEPENDENCE##############################
+###################################################################
+country_event = { #start event
+	id = ESE_independence.0
+	title = ESE_independence.0.t
+	desc = ESE_independence.0.d
+	is_triggered_only = yes
+	
+	option = {
+		name = CRY_prewar.1.a
+		EQS = {
+			set_autonomy = {
+    			target = ESE
+    			autonomy_state = autonomy_free
+			}
+		}
+		drop_cosmetic_tag = yes
+		load_focus_tree = ESE_independence
+	}
+}
+
+
+country_event = { #start event
+	id = ESE_independence.7
+	title = ESE_independence.7.t
+	desc = ESE_independence.7.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ESE_independence.7.a
+		
+		country_event = { id = ESE_independence.8 }
+
+	}
+}
+
+country_event = { #commies
+	id = ESE_independence.8
+	title = ESE_independence.8.t
+	desc = ESE_independence.8.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ESE_independence.8.a
+		91 = { set_demilitarized_zone = yes }
+		51 = { set_demilitarized_zone = yes }
+		71 = { set_demilitarized_zone = yes }
+		country_event = { id = ESE_independence.9 days = 3}
+
+	}
+}
+
+country_event = { #merc
+	id = ESE_independence.9
+	title = ESE_independence.9.t
+	desc = ESE_independence.9.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ESE_independence.9.a
+		47 = { set_demilitarized_zone = yes }
+		49 = { set_demilitarized_zone = yes }
+		country_event = { id = ESE_independence.10 days = 3}
+
+	}
+}
+country_event = { #naz
+	id = ESE_independence.10
+	title = ESE_independence.10.t
+	desc = ESE_independence.10.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ESE_independence.10.a
+		92 = { set_demilitarized_zone = yes }
+		85 = { set_demilitarized_zone = yes }
+		country_event = { id = ESE_independence.11 days = 3}
+	}
+}
+
+country_event = { #libs
+	id = ESE_independence.11
+	title = ESE_independence.11.t
+	desc = ESE_independence.11.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ESE_independence.11.a
+		43 = { set_demilitarized_zone = yes }
+		42 = { set_demilitarized_zone = yes }
+		20 = { set_demilitarized_zone = yes }
+		80 = { set_demilitarized_zone = yes }
+		country_event = { id = ESE_independence.12 days = 3}
+	}
+}
+
+country_event = { #ind
+	id = ESE_independence.12
+	title = ESE_independence.12.t
+	desc = ESE_independence.12.d
+	is_triggered_only = yes
+	
+	option = {
+		name = ESE_independence.12.a
+		44 = { set_demilitarized_zone = yes }
+		93 = { set_demilitarized_zone = yes }
+		load_focus_tree = ESE_fail
+		
+	}
+}
