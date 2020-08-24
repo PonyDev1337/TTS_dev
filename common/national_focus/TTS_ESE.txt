@@ -18,7 +18,7 @@ focus_tree = {
 
 	country = {
 		factor = 0
-		modifier = { add = 20 tag = ESE is_subject = yes }
+		modifier = { add = 30 tag = ESE is_subject = yes }
 	}
 
 	default = no

@@ -114,6 +114,44 @@ country_event = { #ind
 		44 = { set_demilitarized_zone = yes }
 		93 = { set_demilitarized_zone = yes }
 		load_focus_tree = ESE_fail
-		
+		country_event = { id = ESE_independence.13 days = 4}
+	}
+}
+
+country_event = { #ind
+	id = ESE_independence.13
+	title = ESE_independence.13.t
+	desc = ESE_independence.13.d
+	is_triggered_only = yes
+	
+	option = { #stay
+		name = ESE_independence.12.a	
+	}
+
+	option = {#com
+		name = ESE_independence.12.b	
+		91 = { set_demilitarized_zone = no }
+		51 = { set_demilitarized_zone = no }
+		71 = { set_demilitarized_zone = no }
+		21 = { set_demilitarized_zone = yes }
+		load_focus_tree = ESE_commies_start
+	}
+
+	option = {#fas
+		name = ESE_independence.12.c	
+		92 = { set_demilitarized_zone = no }
+		85 = { set_demilitarized_zone = no }
+		21 = { set_demilitarized_zone = yes }
+		load_focus_tree = ESE_fascist_start
+	}
+
+	option = {#lib
+		name = ESE_independence.12.e	
+		43 = { set_demilitarized_zone = no }
+		42 = { set_demilitarized_zone = no }
+		20 = { set_demilitarized_zone = no }
+		80 = { set_demilitarized_zone = no }
+		21 = { set_demilitarized_zone = yes }
+		load_focus_tree = ESE_avaritionists_start
 	}
 }
