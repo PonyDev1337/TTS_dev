@@ -1,4 +1,4 @@
-
+﻿
 focus_tree = {
     id = baltimare
     country = {
@@ -10,115 +10,166 @@ focus_tree = {
     }
 
     focus = {
-        id = EBM_start_rev
-        icon = GFX_goal_stg_socialist_revolution_pony
+        id = EBM_election
         x = 12
         y = 0
         cost = 10
-        select_effect = {
-            country_event = {
-                id = baltimare.5
-                days = 10
-            }
-        }
+       
         completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus EBM_start_rev"
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_election"
         }
     }
 
     focus = {
-        id = EBM_fires_of_rev
-        icon = GFX_goal_support_communism
+        id = EBM_separatist
         x = 12
         y = 1
-        cost = 10
-        select_effect = {
-            country_event = baltimare.1
-            days = 10
-        }
+        prerequisite = { focus = EBM_election }
         completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus EBM_fires_of_rev"
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_separatist"
         }
-        prerequisite = { focus = EBM_start_rev }
+        
     }
 
     focus = {
-        id = EBM_provisional_gov
-        icon = GFX_focus_generic_soviet_politics
+        id = EBM_show_of_force
         x = 12
         y = 2
-        cost = 10
+        prerequisite = { focus = EBM_separatist }
         completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus EBM_provisional_gov"
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_show_of_force"
         }
-        prerequisite = { focus = EBM_fires_of_rev }
-    }
-    
-    focus = {
-        id = EBM_economic_dec
-        x = 10
-        y = 3
-        cost = 10
-        completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus EBM_economic_dec"
-        }
-        prerequisite = { focus = EBM_provisional_gov }
     }
 
     focus = {
-        id = EBM_defense_dec
+        id = EBM_council
         x = 12
         y = 3
-        cost = 10
+        prerequisite = { focus = EBM_show_of_force }
         completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus EBM_defense_dec"
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_council"
         }
-        prerequisite = { focus = EBM_provisional_gov }
     }
 
-    focus = {
-        id = EBM_fate_of_bss
-        x = 14
-        y = 3
-        cost = 10
-        completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus EBM_fate_of_bss"
-        }
-        prerequisite = { focus = EBM_provisional_gov }
-    }
+
+    # Midnight pre-poltical branch
 
     focus = {
-        id = EBM_support_DC
-        icon = GFX_goal_ideology_syndicalist
+        id = EBM_mid_rad
         x = 10
         y = 4
-        cost = 10
+        prerequisite = { focus = EBM_council}
         completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus EBM_support_DC"
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_council"
         }
-        prerequisite = { 
-            focus = EBM_economic_dec
-            focus = EBM_defense_dec
-            focus = EBM_fate_of_bss
-        }
-        mutually_exclusive = { focus = EBM_support_BSS }
     }
 
     focus = {
-        id = EBM_support_BSS
-        icon = GFX_goal_ideology_totalist
+        id = EBM_conseq
+        x = 10
+        y = 5
+        prerequisite = { focus = EBM_mid_rad }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_conseq"
+        }
+    }
+
+    focus = {
+        id = EBM_tool_or_liab
+        x = 10
+        y = 6
+        prerequisite = { focus = EBM_conseq }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_tool_or_liab"
+        }
+    }
+
+    # Syndie pre-political branch
+
+    focus = {
+        id = EBM_syndie_pre
+        x = 12
+        y = 4
+        prerequisite = { focus = EBM_council }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_syndie_pre"
+        }
+    }
+
+    focus = {
+        id = EBM_unite_social
+        x = 12
+        y = 5
+        prerequisite = { focus = EBM_syndie_pre }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_unite_social"
+        }
+    }
+
+    focus = {
+        id = EBM_internal_audit
+        x = 12
+        y = 6
+        prerequisite = { focus = EBM_unite_social }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_internal_audit"
+        }
+    }
+
+    # National guard pre-political path
+
+    focus = {
+        id = EBM_natl_guard
         x = 14
         y = 4
-        cost = 10
+        prerequisite = { focus = EBM_council }
         completion_reward = {
-            log = "[GetDateText]: [Root.GetName]: Focus EBM_support_BSS"
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_natl_guard"
         }
-        prerequisite = { 
-            focus = EBM_economic_dec
-            focus = EBM_defense_dec
-            focus = EBM_fate_of_bss
+    }
+
+    focus = {
+        id = EBM_call_in_favors
+        x = 14
+        y = 5
+        prerequisite = { focus = EBM_natl_guard }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_call_in_favors"
         }
-        mutually_exclusive = { focus = EBM_support_DC }
+    }
+
+    focus = {
+        id = EBM_poli_investigations_politics
+        x = 14
+        y = 6
+        prerequisite = { focus = EBM_call_in_favors }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_poli_investigations_politics"
+        }
+    }
+
+    # Rest of pre political focus tree
+
+    focus = {
+        id = EBM_pieces_in_place
+        x = 12
+        y = 7
+        prerequisite = { focus = EBM_poli_investigations_politics }
+        prerequisite = { focus = EBM_tool_or_liab }
+        prerequisite = { focus = EBM_poli_investigations_politics }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_pieces_in_place"
+        }
+    }
+
+    focus = {
+        id = EBM_indep_baltimare
+        x = 12
+        y = 8
+        prerequisite = { focus = EBM_pieces_in_place }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus EBM_indep_baltimare"
+        }
     }
 
 }
