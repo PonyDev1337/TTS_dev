@@ -12,7 +12,10 @@ set_popularities = {
 	neutrality = 100
 
 }
-	
+set_variable = {
+	var = EFI.loyalty
+	value = 100
+}
 set_cosmetic_tag = EQS_state	
 set_politics = {
 	ruling_party = neutrality

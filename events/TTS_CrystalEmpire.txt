@@ -40,7 +40,7 @@ country_event = {
 	
 	option = {
 		name = CRY_prewar.3.a
-		
+		set_country_flag = CRY_calling_leaders
 	}
 }
 

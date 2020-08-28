@@ -39,13 +39,16 @@ shared_focus = {
 		icon = GFX_goal_CRY_calling_for_world_leaders
 		x = 0
 		y = 2
-		cost = 1
-
+		cost = 3
+		select_effect = {
+			country_event = { id = CRY_prewar.3 }
+		}
 		available_if_capitulated = yes
 		prerequisite = { focus = CRY_crystal_fair_preparations }
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRY_calling_for_world_leaders"
-			country_event = { id = CRY_prewar.3 }
+			
+
 		}
 
 }
@@ -56,13 +59,15 @@ shared_focus = {
 		icon = GFX_goal_CRY_clean_the_streets
 		x = 2
 		y = 2
-		cost = 3
+		cost = 8
 
 		available_if_capitulated = yes
 		prerequisite = { focus = CRY_crystal_fair_preparations }
+		select_effect = {
+			country_event = { id = CRY_prewar.4 }
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRY_clean_the_streets"
-			country_event = { id = CRY_prewar.4 }
 		}
 
 }
@@ -74,13 +79,15 @@ shared_focus = {
 		icon = GFX_goal_CRY_plebs_question
 		x = 2
 		y = 3
-		cost = 2
+		cost = 3
 
 		available_if_capitulated = yes
 		prerequisite = { focus = CRY_clean_the_streets }
+		select_effect = {
+			country_event = { id = CRY_prewar.8 }
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRY_drive_away_plebs"
-			country_event = { id = CRY_prewar.8 }
 		}
 		
 }
@@ -95,9 +102,12 @@ shared_focus = {
 
 		available_if_capitulated = yes
 		prerequisite = { focus = CRY_crystal_fair_preparations }
+		select_effect = {
+			country_event = { id = CRY_prewar.5 }
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRY_call_the_republican_leaders"
-			country_event = { id = CRY_prewar.5 }
+			
 		}
 		
 }
@@ -112,9 +122,11 @@ shared_focus = {
 
 		available_if_capitulated = yes
 		prerequisite = { focus = CRY_call_the_republican_leaders }
+		select_effect = {
+			country_event = { id = CRY_prewar.7 }
+		}
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRY_call_the_republican_leaders"
-			country_event = { id = CRY_prewar.7 }
 		}
 		
 }
