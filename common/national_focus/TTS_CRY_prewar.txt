@@ -165,7 +165,7 @@ shared_focus = {
 
 		completion_reward = {
 			log = "[GetDateText]: [Root.GetName]: Focus CRY_final_reparations"
-			country_event = { id = CRY_prewar.6 }
+			country_event = { id = CRY_prewar.15 }
 		}
 		
 }

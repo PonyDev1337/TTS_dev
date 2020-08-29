@@ -24,7 +24,29 @@ CRY_crystal_fair_category = {
                custom_effect_tooltip = CRY_CF_add_budget_tt
           }
      } 
-
+     CRY_you_must_do_it = {                           
+          allowed = { tag = CRY }                 
+          available = {                           
+                             
+          }
+          activation = {                         
+               has_country_flag = CRY_calling_leaders                        
+          }
+          is_good = yes                          
+          selectable_mission = yes                
+          days_mission_timeout = 20              
+          timeout_effect = {                      
+               add_political_power = -50               
+               country_event = { id = CRY_prewar.10 }
+               country_event = { id = CRY_prewar.11 }
+               country_event = { id = CRY_prewar.12 }
+               country_event = { id = CRY_prewar.13 }
+               country_event = { id = CRY_prewar.14 }
+          }
+          complete_effect = {                    
+               add_political_power = 50               
+          }
+     }
      CRY_call_from_EQS = {
           visible = {
                tag = CRY
