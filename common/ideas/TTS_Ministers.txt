@@ -1,0 +1,164 @@
+ideas = {
+
+	####Crystal Empire(Republic)####
+	head_of_government = { 
+		CRY_Flurry_Heart_hog = { 
+			allowed = { original_tag = CRY }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = head_of_gov_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRY_Honey_Sweet_hog"
+			}
+			traits = {
+				head_of_government
+				authoritarian_harmony
+				hog_princess_of_CRY
+			}
+		}
+	}
+	external_affairs = { 
+		CRY_Laurel_Dew_ea = { 
+			allowed = { original_tag = CRY }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = external_affairs_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRY_Laurel_Dew_ea"
+			}
+			traits = {
+				external_affairs_minister
+				authoritarian_harmony
+				ea_charming_negotiator
+			}
+		}
+	}
+	internal_affairs = { 
+		CRY_Flash_Sentry_ea = { #Cuckning Armor
+			allowed = { original_tag = CRY }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = internal_affairs_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRY_Shining_Armor_ea"
+			}
+			traits = {
+				internal_affairs_minister
+				authoritarian_harmony
+				ia_non_intervention_policy
+			}
+		}
+	}
+	economic_minister = { 
+		CRY_Golden_Heart_ea = { 
+			allowed = { original_tag = CRY }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRY_Golden_Heart_ea"
+			}
+			traits = {
+				economics_minister
+				authoritarian_harmony
+				em_oligarchy_boy
+			}
+		}
+	}
+	intelligence = { 
+		CRY_Thorny_Way_int = { 
+			allowed = { original_tag = CRY }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = economic_minister_available
+					always = no
+				}
+			}
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRY_Golden_Heart_ea"
+			}
+			traits = {
+				intelligence_lel
+				authoritarian_harmony
+				em_oligarchy_boy
+			}
+		}
+	}
+	political_advisor = { 
+		CRY_Pistashio_Drops_pa = { 
+			allowed = { 
+				original_tag = CRY 
+				NOT = { has_idea = CRY_Pistashio_Drops_hog }
+			}
+			available = {
+				
+			}
+			cost = 150
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRY_Pistashio_Drops_hog"
+			}
+			traits = {
+				political_advisor
+				authoritarian_harmony
+				progressive_leaning
+				pa_staunch_defender
+			}
+		}
+		CRY_Thorny_Marmot_pa = { 
+			allowed = { 
+				original_tag = CRY 
+			}
+			available = {
+				
+			}
+			cost = 150
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRY_Thorny_Marmot_pa"
+			}
+			traits = {
+				political_advisor_minister
+				authoritarian_harmony
+				progressive_leaning
+				pa_staunch_defender
+			}
+		}
+		CRY_Thorny_Marmot_pa = { 
+			allowed = { 
+				original_tag = CRY 
+			}
+			available = {
+				
+			}
+			cost = 150
+			cancel_if_invalid = no
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea CRY_Thorny_Marmot_pa"
+			}
+			traits = {
+				political_advisor_minister
+				authoritarian_harmony
+				progressive_leaning
+				pa_staunch_defender
+			}
+		}
+	}
+}

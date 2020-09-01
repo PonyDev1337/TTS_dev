@@ -1,0 +1,26 @@
+scripted_gui = {
+
+	TTS_Crystal_Fair_Terrorist_Attack = {
+		context_type = player_context
+		window_name = "TTS_Crystal_Fair_Terrorist_Attack"
+
+		visible = {
+			has_country_flag = big_event_crystal_attack
+		}
+	}
+
+	TTS_Crystal_Fair_Terrorist_Attack_frame = {
+		context_type = player_context
+		window_name = "TTS_Crystal_Fair_Terrorist_Attack_frame"
+
+		visible = {
+			has_country_flag = big_event_crystal_attack
+		}
+
+		effects = {
+			Option_click = {
+				clr_country_flag = big_event_crystal_attack
+			}
+		}
+	}
+}
