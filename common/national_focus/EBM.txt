@@ -13,10 +13,18 @@ focus_tree = {
         id = EBM_election
         x = 12
         y = 0
-        cost = 10
+        cost = 8.6
        
+       select_effect = {
+           country_event = {
+                id = baltimare.100
+                days = 10
+            }
+       }
+
         completion_reward = {
             log = "[GetDateText]: [Root.GetName]: Focus EBM_election"
+            
         }
     }
 
@@ -24,7 +32,15 @@ focus_tree = {
         id = EBM_separatist
         x = 12
         y = 1
+        cost = 8.6
         prerequisite = { focus = EBM_election }
+        
+        select_effect = {
+            country_event = {
+                id = baltimare.102
+                days = 10
+            }
+        }
         completion_reward = {
             log = "[GetDateText]: [Root.GetName]: Focus EBM_separatist"
         }
@@ -154,7 +170,7 @@ focus_tree = {
         id = EBM_pieces_in_place
         x = 12
         y = 7
-        prerequisite = { focus = EBM_poli_investigations_politics }
+        prerequisite = { focus = EBM_internal_audit }
         prerequisite = { focus = EBM_tool_or_liab }
         prerequisite = { focus = EBM_poli_investigations_politics }
         completion_reward = {

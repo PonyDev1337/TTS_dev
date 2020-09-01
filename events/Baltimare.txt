@@ -1,4 +1,59 @@
-add_namespace = baltimare
+﻿add_namespace = baltimare
+
+# Early Political Tree Events
+country_event = {
+	id = baltimare.100
+	title = baltimare.100.t
+	desc = baltimare.100.d
+	immediate = { log = "[GetDateText]: [Root.GetName]: event baltimare.100"}
+	is_triggered_only = yes
+	option = {
+		name = baltimare.100.a
+		country_event = {
+			id = baltimare.101
+			days = 25
+		}
+	}
+}
+
+country_event = {
+	id = baltimare.101
+	title = baltimare.101.t
+	desc = baltimare.101.d
+	immediate = { log = "[GetDateText]: [Root.GetName]: event baltimare.101"}
+	is_triggered_only = yes
+	option = {
+		name = baltimare.101.a
+	}
+}
+
+country_event = {
+	id = baltimare.102
+	title = baltimare.102.t
+	desc = baltimare.102.d
+	immediate = { log = "[GetDateText]: [Root.GetName]: event baltimare.102"}
+	is_triggered_only = yes
+	option = {
+		name = baltimare.102.a
+		country_event = {
+			id = baltimare.103
+			days = 20
+		}
+	}
+}
+
+country_event = {
+	id = baltimare.103
+	title = baltimare.103.t
+	desc = baltimare.103.d
+	immediate = { log = "[GetDateText]: [Root.GetName]: event baltimare.103"}
+	is_triggered_only = yes
+	option = {
+		name = baltimare.103.a
+		
+	}
+}
+
 
 
 
