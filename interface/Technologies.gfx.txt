@@ -1,0 +1,85 @@
+	SpriteType = {
+		name = "GFX_magic_war_doctrine_medium"
+		texturefile = "gfx/interface/technologies/magic_war_doctrine.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_new_magic_guns_medium"
+		texturefile = "gfx/interface/technologies/new_magic_guns.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_total_mag_guns_medium"
+		texturefile = "gfx/interface/technologies/total_mag_guns.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_quality_mag_guns_medium"
+		texturefile = "gfx/interface/technologies/quality_mag_guns.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_combined_magic_medium"
+		texturefile = "gfx/interface/technologies/combined_magic.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_magic_unification_medium"
+		texturefile = "gfx/interface/technologies/magic_unification.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_new_material_medium"
+		texturefile = "gfx/interface/technologies/new_material.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_many_magic_guns_medium"
+		texturefile = "gfx/interface/technologies/many_magic_guns.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_full_magic_army_medium"
+		texturefile = "gfx/interface/technologies/full_magic_army.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_new_magic_technology_medium"
+		texturefile = "gfx/interface/technologies/new_magic_technology.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_steel_power_medium"
+		texturefile = "gfx/interface/technologies/steel_power.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_magic_breackthrough_medium"
+		texturefile = "gfx/interface/technologies/magic_breackthrough.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_magic_napalm_medium"
+		texturefile = "gfx/interface/technologies/magic_napalm.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_magic_war_newer_changes_medium"
+		texturefile = "gfx/interface/technologies/magic_war_newer_changes.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_magic_fuel_medium"
+		texturefile = "gfx/interface/technologies/magic_fuel.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_magic_art_medium"
+		texturefile = "gfx/interface/technologies/magic_art.dds"
+		#alwaystransparent = yes
+	}
+	SpriteType = {
+		name = "GFX_ultimate_mines_medium"
+		texturefile = "gfx/interface/technologies/ultimate_mines.dds"
+		#alwaystransparent = yes
+	}
