@@ -617,7 +617,7 @@ country_event = {
 }
 
 country_event = {
-	id = CRY_crystal_fair.8 #Scherener und Njaschkowa
+	id = CRY_crystal_fair.8 #Schonerer und Njaschkowa
 	title = CRY_crystal_fair.8.t
 	desc = CRY_crystal_fair.8.d
 	fire_only_once = yes
@@ -639,6 +639,95 @@ country_event = {
 
 }
 
+country_event = {
+	id = CRY_crystal_fair.9
+	title = CRY_crystal_fair.9.t
+	desc = CRY_crystal_fair.9.d
+	fire_only_once = yes
+	trigger = {
+		has_country_flag = CRY_lets_get_this_party_started
+		has_country_flag = CRY_CF_invited_Cadence
+	}
+	mean_time_to_happen = {
+		days = 2
+	}
+	option = {
+		name = CRY_crystal_fair.9.a
+	}
+
+}
+
+country_event = {
+	id = CRY_crystal_fair.10
+	title = CRY_crystal_fair.10.t
+	desc = CRY_crystal_fair.10.d
+	fire_only_once = yes
+	trigger = {
+		has_country_flag = CRY_lets_get_this_party_started
+		has_country_flag = CRY_CF_invited_Potapov
+	}
+	mean_time_to_happen = {
+		days = 5
+	}
+	option = {
+		name = CRY_crystal_fair.10.a
+	}
+
+}
+country_event = {
+	id = CRY_crystal_fair.11
+	title = CRY_crystal_fair.11.t
+	desc = CRY_crystal_fair.11.d
+	fire_only_once = yes
+	trigger = {
+		has_country_flag = CRY_lets_get_this_party_started
+		has_country_flag = CRY_CF_invited_Nyashkova
+	}
+	mean_time_to_happen = {
+		days = 5
+	}
+	option = {
+		name = CRY_crystal_fair.11.a
+	}
+
+}
+
+country_event = {
+	id = CRY_crystal_fair.12
+	title = CRY_crystal_fair.12.t
+	desc = CRY_crystal_fair.12.d
+	fire_only_once = yes
+	trigger = {
+		has_country_flag = CRY_lets_get_this_party_started
+		has_country_flag = CRY_CF_invited_Celestia
+		has_country_flag = CRY_CF_invited_Twinkle
+	}
+	mean_time_to_happen = {
+		days = 6
+	}
+	option = {
+		name = CRY_crystal_fair.12.a
+	}
+
+}
+country_event = {
+	id = CRY_crystal_fair.13
+	title = CRY_crystal_fair.13.t
+	desc = CRY_crystal_fair.13.d
+	fire_only_once = yes
+	trigger = {
+		has_country_flag = CRY_lets_get_this_party_started
+		has_country_flag = CRY_CF_invited_Twilight
+		has_country_flag = CRY_CF_invited_Whirl
+	}
+	mean_time_to_happen = {
+		days = 8
+	}
+	option = {
+		name = CRY_crystal_fair.13.a
+	}
+
+}
 ###################################################################
 ############################CIVIL WAR##############################
 ###################################################################

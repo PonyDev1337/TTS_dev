@@ -81,6 +81,7 @@ add_ideas = {
 	CRY_royalty
 	CRY_republican_protests
 	CRY_unloyal_crystal_clear
+	CRY_old_bunkers
 	member_of_canterlot_pact
 }
 

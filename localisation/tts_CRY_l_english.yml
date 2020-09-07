@@ -28,6 +28,9 @@ CRY_republican_protests:0 "Republican Protests"
 CRY_republican_protests_desc:0 "After the Great War, a large part of our country, especially in the West, is laying devastated and the last thing the Crystal ponies want is another war. This has led to many ponies questioning the ruling family and democratic and republican movements enjoy a historical popularity. Not only that, but they became quite bold in the recent months and years. Protests and strikes are almost daily, with broad support from the news. Right now, the majority of our subjects is still loyal to their princess, but if we don't do something about this very soon, we will have to make concessions and eventually abdicate, or else we risk an escalation of the situation."
 CRY_unloyal_crystal_clear:0 "Critical CCL"
 CRY_unloyal_crystal_clear_desc:0 "Crystal Clear, or CCL for short, is the most popular and influential news network within the Empire, with almost three million ponies listening to their broadcasts and reading their articles daily. In the last months and years, it caused a stir with its rather left minded editorial staff and by openly supporting the many protests of liberal and even communist groups. Needless to say, this support is not really calming the situation down and they are one major factor of the recent popularity of the leftist movements in our country."
+CRY_old_bunkers:0 "Old War-Time Bunkers"
+CRY_old_bunkers_desc:0 "During the war, many fortifications were built all over the country to stop the advancing Changeling troops. Now, the Changeling menace is gone, but the maintenance costs for these bunkers and trenches only changed little, so we're basically paying for something we don't need."
+
 
 CRY_between_two_fires:0 "Between Two Fires"
 CRY_crystal_fair_preparations:0 "Crystal Fair-1032"
@@ -141,8 +144,15 @@ CRY_CF_CCL_uwu:0 "§GYou are so kind, princess! I'm sure they won't forget this.
 CRY_CF_BOMJ_destroy:0 "How could you princess? They are already in such pitful condition... §RThe Republicans will definitely take advantage of this..."
 CRY_CF_BOMJ_uwu:0 "§BNot a bad plan. Though we will have to spend some money on soap."
 CRY_CF_BOMJ_pohuj:0 "§RAre you sure?"
+
 CRY_CF_add_budget_tt:0 "We will get §Y1000§! millions of crystal bits. §RBut it will make the people angry. Even loyalists will be upset."
 CRR_CF_add_budget:0 "Allocate more funds"
+CRY_call_from_EQS:0 "Invite person from Equestria"
+CRY_call_from_STG:0 "Invite person from Stalliongrad"
+CRY_call_from_GRI:0 "Invite person from Griffonian Empire"
+CRY_call_from_RIV:0 "Invite person from River Federation"
+CRY_call_from_other:0 "Invite person from other country"
+
 
 CRY_crystal_fair_category:0 "Preparation for the Crystal Fair"
 
