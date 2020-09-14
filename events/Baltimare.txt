@@ -54,6 +54,47 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = baltimare.104
+	title = baltimare.104.t
+	desc = baltimare.104.d
+	immediate = { log = "[GetDateText]: [Root.GetName]: event baltimare.104"}
+	is_triggered_only = yes
+	option = {
+		name = baltimare.104.a
+		country_event = {
+			id = baltimare.105
+			days = 20
+		}
+	}
+}
+
+country_event = {
+	id = baltimare.105
+	title = baltimare.105.t
+	desc = baltimare.105.d
+	immediate = { log = "[GetDateText]: [Root.GetName]: event baltimare.104"}
+	is_triggered_only = yes
+	option = {
+		name = baltimare.105.a
+		country_event = {
+			id = baltimare.106
+			days = 10
+		}
+	}
+}
+
+country_event = {
+	id = baltimare.106
+	title = baltimare.106.t
+	desc = baltimare.106.d
+	immediate = { log = "[GetDateText]: [Root.GetName]: event baltimare.104"}
+	is_triggered_only = yes
+	option = {
+		name = baltimare.106.a
+	}
+}
+
 
 
 

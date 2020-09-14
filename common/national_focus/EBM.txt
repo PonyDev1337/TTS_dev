@@ -52,6 +52,12 @@ focus_tree = {
         x = 12
         y = 2
         prerequisite = { focus = EBM_separatist }
+        select_effect = {
+            country_event = {
+                id = baltimare.104
+                days = 10
+            }
+        }
         completion_reward = {
             log = "[GetDateText]: [Root.GetName]: Focus EBM_show_of_force"
         }
