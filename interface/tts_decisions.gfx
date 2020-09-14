@@ -1,0 +1,31 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_decision_CRY_crystal_fair_category"
+		texturefile = "gfx/interface/decisions/CRY/CRY_crystal_fair_category.dds"
+	}
+	
+	SpriteType = {
+		name = "GFX_decision_CRR_CF_add_budget"
+		texturefile = "gfx/interface/decisions/CRY/CRR_CF_add_budget.dds"
+	}
+	SpriteType = {
+		name = "GFX_decision_CRY_call_from_RIV"
+		texturefile = "gfx/interface/decisions/CRY/CRY_call_from_RIV.dds"
+	}
+	SpriteType = {
+		name = "GFX_decision_CRY_call_from_STG"
+		texturefile = "gfx/interface/decisions/CRY/CRY_call_from_STG.dds"
+	}
+	SpriteType = {
+		name = "GFX_decision_CRY_call_from_EQS"
+		texturefile = "gfx/interface/decisions/CRY/CRY_call_from_EQS.dds"
+	}
+	SpriteType = {
+		name = "GFX_decision_CRY_call_from_GRI"
+		texturefile = "gfx/interface/decisions/CRY/CRY_call_from_GRI.dds"
+	}
+	SpriteType = {
+		name = "GFX_decision_CRY_call_from_other"
+		texturefile = "gfx/interface/decisions/CRY/CRY_call_from_other.dds"
+	}
+}

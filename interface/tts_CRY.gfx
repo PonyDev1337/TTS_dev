@@ -1,10 +1,15 @@
 spriteTypes = {
 	#idea
 	SpriteType = {
-		name = "GFX_idea_HAU_Crossroad_and_New_Resourses"
-		texturefile = "gfx/interface/ideas/CRY/HAU_Crossroad_and_New_Resourses.dds"
+		name = "GFX_idea_CRY_crystal_heart"
+		texturefile = "gfx/interface/ideas/CRY/CRY_crystal_heart.dds"
 	}
 	
+	SpriteType = {
+		name = "GFX_idea_CRY_royalty"
+		texturefile = "gfx/interface/ideas/CRY/CRY_royalty.dds"
+	}
+
 	#focus
 	SpriteType = {
 		name = "GFX_goal_CRY_between_two_fires"

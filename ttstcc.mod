@@ -33,4 +33,4 @@ tags={
 	"Alternative History"
 	"Events"
 }
-supported_version="1.7.1"
+supported_version="1.9.3"

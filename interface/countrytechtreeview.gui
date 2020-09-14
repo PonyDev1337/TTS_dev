@@ -1,7 +1,7 @@
 	#####---------------------------------------------------------------------> Mod by Sig "GreatExperiment" Altre
 
 guiTypes = {
-
+	
 	containerWindowType = {
 		name = "subunit_icon_entry"
 		position = { x=0 y=0 }
@@ -2952,7 +2952,13 @@ guiTypes = {
 				size = { width = 2100 height = 100% }
 			}
 
-
+			gridboxtype = {
+				name = "magic_war_doctrine_tree" 
+				position = { x=80 y=172 }
+				size = { width = 478 height = 1350 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+			}
 			iconType = {
 				name ="mob_warfare_bg"
 				spriteType = "GFX_mob_warfare_bg"
@@ -2986,12 +2992,12 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
-				name = "mob_warfare_title"
+				name = "magic_doctrine_title"
 				position = { x = 120 y = 35 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "MOBILE_WARFARE_DOCTRINE_LABEL"
+				text = "MAGIC_DOCTRINE_DOCTRINE_LABEL"
 				maxWidth = 400
 				maxHeight = 122
 				format = center
@@ -3038,12 +3044,12 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
-				name = "mob_warfare_desc"
+				name = "mag_warfare_desc"
 				position = { x = 140 y = 90 }
 				textureFile = ""
 				font = "hoi_20b"
 				borderSize = {x = 0 y = 4}
-				text = "MOBILE_WARFARE_DOCTRINE_DESC"
+				text = "MAGIC_WARFARE_DOCTRINE_DESC"
 				maxWidth = 350
 				maxHeight = 122
 				format = center
@@ -3090,17 +3096,17 @@ guiTypes = {
 			}
 
 			instantTextBoxType = {
-				name = "mob_warfare_subtitle1"
-				position = { x = 110 y = 435 }
+				name = "mag_warfare_subtitle1"
+				position = { x = 110 y = 315 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "MOBILE_INFANTRY_LABEL"
+				text = "MAGIC_QUALITY_LABEL"
 				maxWidth = 150
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "MOBILE_INFANTRY_LABEL_TT"
+				pdx_tooltip = "MAGIC_QUALITY_LABEL_TT"
 			}
 
 			instantTextBoxType = {
@@ -3109,40 +3115,40 @@ guiTypes = {
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "BLITZKRIEG_LABEL"
+				text = "MAGIC_QUANTITY_LABEL"
 				maxWidth = 200
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "BLITZKRIEG_LABEL_TT"
+				pdx_tooltip = "MAGIC_QUANTITY_LABEL_TT"
 			}
 
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle3"
-				position = { x = 110 y = 919 }
+				position = { x = 110 y = 800 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "DESPERATE_DEFENSE_LABEL"
+				text = "NEW_MAGIC_TECH_LABEL"
 				maxWidth = 150
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "DESPERATE_DEFENSE_LABEL_TT"
+				pdx_tooltip = "NEW_MAGIC_TECH_LABEL_TT"
 			}
 
 			instantTextBoxType = {
 				name = "mob_warfare_subtitle4"
-				position = { x = 360 y = 919 }
+				position = { x = 360 y = 800 }
 				textureFile = ""
 				font = "hoi_22tech"
 				borderSize = {x = 0 y = 4}
-				text = "MODERN_BLITZKRIEG_LABEL"
+				text = "NEW_RESOURCES_LABEL"
 				maxWidth = 180
 				maxHeight = 122
 				format = center
 				Orientation = "UPPER_LEFT"
-				pdx_tooltip = "MODERN_BLITZKRIEG_LABEL_TT"
+				pdx_tooltip = "NEW_RESOURCES_LABEL_TT"
 			}
 
 			instantTextBoxType = {

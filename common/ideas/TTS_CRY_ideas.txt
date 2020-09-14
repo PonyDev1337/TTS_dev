@@ -16,9 +16,6 @@ ideas = {
 			modifier = {
 				stability_factor = -0.25
 				political_power_factor = -0.5
-				democratic_drift = 0.03
-				reformism_drift = 0.03
-				communism_drift =  0.03
 			}
 		}
 		CRY_crystal_heart = {
@@ -64,7 +61,23 @@ ideas = {
 			stability_factor = 0.05
 			}
 		}
-
+		CRY_old_bunkers = {
+		allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				always = no
+			}
+			available = {
+				
+			}
+			modifier = {
+				army_core_defence_factor = 0.06
+				consumer_goods_factor = 0.05
+				production_factory_efficiency_gain_factor = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
 		CRY_unloyal_crystal_clear = {
 		allowed = {
 				always = no
@@ -77,81 +90,11 @@ ideas = {
 			}
 			modifier = {
 			stability_factor = -0.1
-			democratic_drift = 0.03
-			reformism_drift = 0.03
-			communism_drift =  0.03
+			political_power_gain = -0.1
 			}
 		}
 
-		CRY_unloyal_crystal_clear_2 = {
-		allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = no
-			}
-			available = {
-				
-			}
-			modifier = {
-			stability_factor = -0.08
-			democratic_drift = 0.03
-			reformism_drift = 0.03
-			communism_drift =  0.03
-			}
-		}
-
-		CRY_unloyal_crystal_clear_3 = {
-		allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = no
-			}
-			available = {
-				
-			}
-			modifier = {
-			stability_factor = -0.06
-			democratic_drift = 0.03
-			reformism_drift = 0.02
-			communism_drift =  0.01
-			}
-		}
-
-		CRY_unloyal_crystal_clear_4 = {
-		allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = no
-			}
-			available = {
-				
-			}
-			modifier = {
-			stability_factor = -0.04
-			democratic_drift = 0.02
-			reformism_drift = 0.01
-			}
-
-		}
-
-		CRY_unloyal_crystal_clear_5 = {
-		allowed = {
-				always = no
-			}
-			allowed_civil_war = {
-				always = no
-			}
-			available = {
-				
-			}
-			modifier = {
-			stability_factor = -0.02
-			democratic_drift = 0.01
-			}
-		}
+		
 
 		CRY_loyal_crystal_clear = {
 		allowed = {
